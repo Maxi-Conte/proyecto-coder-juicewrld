@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu Mono', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+/*====header y barra de navegacion====*/
+
+
+.header {
+    display: flex;
+    background-color: rgb(15, 80, 100);
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.h1-juice {
+    padding-left: 40%;
+    height: 35px;
+    display: flex;
+}
+
+.img-999 {
+    display: flex;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.nav {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.barra-nav {
+    background-color: rgb(22, 50, 66);
+    border: solid 2px rgb(22, 50, 66);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-evenly;
+    height: 35px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+a {
+    text-decoration: underline;
+    color: white;
+    height: 18px;
+}
+
+@media (max-width:480px) {
+    .header {
+        display: flex;
+        background-color: rgb(15, 80, 100);
+        width: 100%;
+    }
+    
+    .h1-juice { 
+        display: flex;
+        padding-left: 4%;
+        padding-bottom: 8%;
+        height: 10px;
+    }
+    
+    .img-999 {
+        display: flex;
+    }
+    
+}
+
+@media (max-width:480px) {
+    .nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .barra-nav {
+        padding: 11px;
+        font-size: 12px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .barra-nav a {
+        font-size: 11px;
+        justify-content: space-evenly;
+        text-decoration: underline;
+    }
+}
+
+
+
+/*==== informacion de juice====*/
+
+.div-info {
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 30px;
+    padding-bottom: 33px;
+}
+
+.info-juice {
+    padding-top: 15px;
+}
+
+.parrafos-juice-1 {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 16px;
+}
+
+.img-juice-1 {
+    height: 380px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.h3-info {
+    padding-bottom: 20px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+.h3-info-2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.parrafo-gbgr-5-años {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.parrafos-info-2 {
+    padding-left: 20px;
+    font-size: 16px;
+    padding-right: 60px;
+}
+
+.parrafo-posterior {
+    padding-top: 10px;
+}
+
+.a-gbgr-5 {
+    color: brown;
+    text-decoration: underline;
+}
+
+
+@media (max-width:480px) {
+    .div-info {
+        display: block;
+    }
+
+    .info-juice {
+        font-size: 14px;
+    }
+
+    .parrafos-juice-1 {
+        font-size: 11px;
+        text-align: start;
+        padding-top: 8px;
+    }
+
+    .parrafos-info-2 {
+        font-size: 11px;
+        text-align: start;
+    }
+
+    .img-juice-1 {
+        display: block;
+        height: 210px;
+        margin-left: 25%;
+    }
+
+    .h3-info-2 {
+        font-size: 17px;
+        padding-top: 50px;
+    }
+
+}
+
+
+
+/*====discografia====*/
+
+
+/*====Disco 1 GBGR====*/
+
+
+.discografia {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.h4-albumes {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+
+
+.gbgr-disco {
+    background-color:  rgb(32, 31, 31);
+    padding: 20px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 17px;
+}
+
+.p-1-gbgr {
+    padding-top: 8px;
+}
+
+.parrafo-gbgr {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.a-gbgr-1 {
+    color: brown;
+    text-decoration: underline;
+}
+
+.img-gbgr-album-1 {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+
+    .gbgr-disco {
+        display: block;
+        margin: 10%;
+
+    }
+
+    .parrafo-gbgr {
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .img-gbgr-album-1 {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin-left: 20%;
+    }
+}
+
+
+
+/*====Segundo Disco DRFL====*/
+
+.drfl-contenedor {
+    margin-top: 80px;
+}
+
+.drfl-disco {
+    background-color:  rgb(32, 31, 31);
+    padding: 20px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 17px;
+}
+
+.p-1-drfl {
+    padding-top: 8px;
+}
+
+.drfl-parrafos {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.a-drfl {
+    color: brown;
+    text-decoration: underline;
+}
+
+.drfl-img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .drfl-disco {
+        display: block;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 15%;
+
+    }
+
+    .drfl-parrafos {
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .drfl-img {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin-left: 20%;
+    }
+}
+
+
+/*=====Tercer Disco LND=====*/
+
+.lnd-contenedor {
+    margin-top: 80px;
+}
+
+.lnd-disco {
+    background-color:  rgb(32, 31, 31);
+    padding: 20px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 17px;
+    justify-items: center;
+}
+
+.p-1-lnd {
+    padding-bottom: 10px;
+}
+
+.p-3-lnd {
+    padding-top: 10px;
+}
+
+.lnd-parrafos {
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 3px;
+}
+
+.a-lnd {
+    color: brown;
+    text-decoration: underline;
+}
+
+.lnd-img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .lnd-disco {
+        display: block;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30%;
+
+    }
+
+    .lnd-parrafos {
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .lnd-img {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin-left: 20%;
+    }
+}
+
+
+/*=====Cuarto Disco FD=====*/
+
+.fd-contenedor {
+    margin-top: 80px;
+
+}
+
+.fd-disco {
+    background-color:  rgb(32, 31, 31);
+    padding: 20px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 17px;
+    justify-items: center;
+}
+
+
+.fd-parrafos {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.a-fd {
+    color: brown;
+    text-decoration: underline;
+}
+
+.fd-img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+    .fd-disco {
+        display: block;
+        margin: 10%;
+
+    }
+
+    .fd-parrafos {
+        text-align: start;
+        font-size: 13px;
+    }
+
+    .fd-img {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin-left: 20%;
+    }
+}
+
+
+/*===== Top 3 Canciones =====*/
+
+.canciones-documental {
+    display: flex;
+}
+
+.h3-top-3 {
+    padding-left: 5%;
+}
+
+.canciones-mas-escuchadas {
+    background-color:  rgb(32, 31, 31);
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-items: center;
+}
+
+.canciones-parrafos {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.cancion-ld {
+    color: brown;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.cancion-agats {
+    color: brown;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.agats-titulo {
+    padding-top: 10px;
+}
+
+.cancion-ry {
+    color: brown;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.ry-titulo {
+    padding-top: 10px;
+}
+
+.cancion-ld-parrafo {
+    padding-top: 7px;
+}
+
+.cancion-agats-parrafo {
+    padding-top: 7px;
+}
+
+.cancion-ry-parrafo {
+    padding-top: 7px;
+}
+
+/* ===== Documental ===== */
+
+.documental-juice {
+    background-color:  rgb(32, 31, 31);
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 13px;
+    justify-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-documental {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 7%;
+}
+
+.img-hbo {
+    height: 270px;
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.h4-documental {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.parrafo-2-doc {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media (max-width:480px) {
+    .canciones-documental {
+        display: block;
+    }
+
+    .canciones-mas-escuchadas {
+        margin: 7%;
+    }
+
+    .documental-juice {
+        margin: 7%;
+    }
+
+    .img-hbo {
+        height: 180px;
+        padding-top: 10%;
+    }
+}
+
+
+
+
+/* ===== Ropa y Accesorios ===== */
+
+.seccion-ropa {
+    padding-top: 5%;
+}
+
+.tarjeta {
+    border: 2px solid black;
+    width: 250px;
+    height: 340px;
+    background-color: rgb(66, 21, 107);
+    color: white;
+}
+
+.tarjeta-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.tarjeta-body a {
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.tarjeta img {
+    width: 100%;
+}
+
+.tarjeta-2 {
+    border: 2px solid black;
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-body-2 {
+    flex-grow: 1;
+}
+
+
+.tarjeta-2 img {
+    width: 80%;
+}
+
+
+
+
+/*=====Footer=====*/
+
+
+
+.container-footer {
+    background-color: rgb(44, 3, 3);
+    display: flex;
+    padding-top: 50px;
+}
+
+.div-listas {
+    padding-left: 8%;
+}
+
+.div-listas li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.cajita-juice {
+    height: 400px;
+    padding-left: 30%;
+    padding-bottom: 20%;
+}
+
+.h3-footer {
+    margin-left: 1%;
+}
+
+.form-class {
+    padding-top: 1%;
+    margin-left: 18%;
+}
+
+.form-class h3 {
+    padding-bottom: 7%;
+    padding-left: 11%;
+}
+
+
+
+.contactos-del-desarrollador {
+    padding-left: 15%;
+}
+
+.contactos-del-desarrollador h4 {
+    padding-top: 20px;
+}
+
+
+
+
+@media (max-width:420px) {
+
+    .container-footer {
+        display: block;
+    }
+
+    .div-listas li {
+        margin-left: 39%;
+        text-decoration: underline;
+    }
+
+
+    .h3-footer {
+        margin-top: 10%;
+        margin-left: 7%;
+    }
+
+    .form-class {
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .form-class input {
+        margin-left: 20%;
+    }
+
+    .cajita-juice {
+        height: 70%;
+        width: 70%;
+    }
+
+    .contactos-del-desarrollador h3{
+        text-align: center;
+        padding-top: 5%;
+    }
+}
