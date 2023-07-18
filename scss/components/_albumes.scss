@@ -1,0 +1,147 @@
+.discografia {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.h3-albumes {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.gbgr-disco {
+        background-color:  rgb(32, 31, 31);
+        padding: 20px;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 17px;
+
+    & p {
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    &-img-gbgr-album-1 {
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    & a {
+        color: brown;
+        text-decoration: underline;
+    }
+}
+
+
+.drfl-contenedor {
+    margin-top: 80px;
+
+    &-drfl-disco {
+        background-color:  rgb(32, 31, 31);
+        padding: 20px;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 17px;
+    }
+
+    &-drfl-disco p {
+        padding-top: 8px;
+    }
+
+    &-drfl-parrafos {
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    & a {
+        color: brown;
+    }
+
+    &-drfl-img {
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+}
+
+
+.lnd-contenedor {
+    margin-top: 80px;
+
+    &-lnd-disco {
+        background-color:  rgb(32, 31, 31);
+        padding: 20px;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 17px;
+        justify-items: center;
+    }
+
+    &-p-1-lnd {
+        padding-bottom: 10px;
+    }
+
+    &-p-3-lnd {
+        padding-top: 10px;
+    }
+
+    &-lnd-parrafos {
+        padding-top: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 3px;
+    }
+
+    & a {
+        color: brown;
+        text-decoration: underline;
+    }
+
+    &-lnd-img {
+        width: 200px;
+        height: 200px;
+        padding-top: 10px
+    }
+}
+
+.fd-contenedor {
+    margin-top: 80px;
+
+    &-fd-disco {
+        background-color:  rgb(32, 31, 31);
+        padding: 20px;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 17px;
+        justify-items: center;
+    }
+
+    & p {
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    & a {
+        color: brown;
+        text-decoration: underline;
+    }
+
+    &-fd-img {
+        width: 200px;
+        height: 200px;
+        padding-top: 10px;
+    }
+    
+
+}

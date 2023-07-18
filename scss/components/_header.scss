@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    background-color: rgb(15, 80, 100);
+    align-items: center;
+
+    &-h1-juice{
+        padding-left: 40%;
+        height: 35px;
+        display: flex;
+    }
+
+    &-img-999 {
+        display: flex;
+        height: 80px;
+        padding-left: 10px;
+    }
+
+}

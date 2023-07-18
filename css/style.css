@@ -1,826 +1,489 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: underline;
+  height: 18px;
+  color: white;
 }
 
 body {
-    font-family: 'Ubuntu Mono', sans-serif;
-    background-color: black;
-    color: white;
-}
-
-
-/*====header y barra de navegacion====*/
-
-
-.header {
-    display: flex;
-    background-color: rgb(15, 80, 100);
-    align-items: center;
+  font-family: "Ubuntu Mono", sans-serif;
+  background-color: black;
+  color: white;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+.container-footer {
+  background-color: rgb(44, 3, 3);
+  display: flex;
+  padding-top: 50px;
+}
+.container-footer-div-listas {
+  padding-left: 8%;
+}
+.container-footer li {
+  padding-top: 15%;
+  font-size: 20px;
+}
+.container-footer-cajita-juice {
+  height: 400px;
+  padding-left: 30%;
+  padding-bottom: 20%;
+}
+.container-footer h3 {
+  margin-left: 3%;
+}
+.container-footer-form-class {
+  padding-top: 1%;
+  margin-left: 20%;
+}
+.container-footer-contactos-del-desarrollador li {
+  margin-left: 100%;
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(15, 80, 100);
+  align-items: center;
+}
+.header-h1-juice {
+  padding-left: 40%;
+  height: 35px;
+  display: flex;
+}
+.header-img-999 {
+  display: flex;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.header-nav {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.header-barra-nav {
+  background-color: rgb(22, 50, 66);
+  border: solid 2px rgb(22, 50, 66);
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  justify-content: space-evenly;
+  height: 35px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header-barra-nav li {
+  display: inline-flex;
+  margin-right: 30px;
+  margin-left: 30px;
 }
-
-.h1-juice {
-    padding-left: 40%;
-    height: 35px;
-    display: flex;
-}
-
-.img-999 {
-    display: flex;
-    height: 80px;
-    padding-left: 10px;
-}
-
-.nav {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.barra-nav {
-    background-color: rgb(22, 50, 66);
-    border: solid 2px rgb(22, 50, 66);
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
-    justify-content: space-evenly;
-    height: 35px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.barra-nav li{
-    display: inline-flex;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-
-
-a {
-    text-decoration: underline;
-    color: white;
-    height: 18px;
-}
-
-@media (max-width:480px) {
-    .header {
-        display: flex;
-        background-color: rgb(15, 80, 100);
-        width: 100%;
-    }
-    
-    .h1-juice { 
-        display: flex;
-        padding-left: 10%;
-        padding-bottom: 8%;
-        height: 10px;
-    }
-    
-    .img-999 {
-        display: flex;
-    }
-    
-    .nav {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .barra-nav {
-        padding: 15%;
-        font-size: 12px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-
-    .barra-nav li {
-        display: flex;
-        padding-top: 5%;
-        font-size: 10px;
-        text-decoration: underline;
-    }
-}
-
-
-
-/*==== informacion de juice====*/
-
-.div-info {
-    background-color: rgb(32, 31, 31);
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 8px;
-    margin: 30px;
-    padding-bottom: 33px;
-}
-
-.info-juice {
-    padding-top: 15px;
-}
-
-.parrafos-juice-1 {
-    padding-left: 3%;
-    padding-right: 3%;
-    font-size: 16px;
-}
-
-.img-juice-1 {
-    height: 380px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 50px;
-}
-
-.h3-info {
-    padding-bottom: 20px;
-    padding-left: 2px;
-    text-align: center;
-}
-
-.h3-info-2 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.parrafo-gbgr-5-años {
-    padding-top: 20px;
-    padding-bottom: 25px;
-}
-
-.parrafos-info-2 {
-    padding-left: 20px;
-    font-size: 16px;
-    padding-right: 60px;
-}
-
-.parrafo-posterior {
-    padding-top: 10px;
-}
-
-.a-gbgr-5 {
-    color: brown;
-    text-decoration: underline;
-}
-
-
-@media (max-width:480px) {
-    .div-info {
-        display: block;
-    }
-
-    .info-juice {
-        font-size: 14px;
-    }
-
-    .parrafos-juice-1 {
-        font-size: 11px;
-        text-align: start;
-        padding-top: 8px;
-    }
-
-    .parrafos-info-2 {
-        font-size: 11px;
-        text-align: start;
-    }
-
-    .img-juice-1 {
-        display: block;
-        height: 210px;
-        margin-left: 25%;
-    }
-
-    .h3-info-2 {
-        font-size: 17px;
-        padding-top: 50px;
-    }
-
-}
-
-
-
-/*====discografia====*/
-
-
-/*====Disco 1 GBGR====*/
-
-
-.discografia {
-    text-align: center;
-    padding-top: 50px;
-}
-
-.h4-albumes {
-    padding-top: 30px;
-    padding-left: 60px;
-}
-
-
-
-.gbgr-disco {
-    background-color:  rgb(32, 31, 31);
-    padding: 20px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 50px;
-    font-size: 17px;
-}
-
-.p-1-gbgr {
-    padding-top: 8px;
-}
-
-.parrafo-gbgr {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.a-gbgr-1 {
-    color: brown;
-    text-decoration: underline;
-}
-
-.img-gbgr-album-1 {
-    width: 200px;
-    height: 200px;
-    padding-top: 10px;
-}
-
-@media (max-width: 480px) {
-
-    .gbgr-disco {
-        display: block;
-        margin: 10%;
-    }
-
-    .parrafo-gbgr {
-        text-align: start;
-        font-size: 13px;
-        width: 110%;
-    }
-
-    .img-gbgr-album-1 {
-        display: block;
-        height: 150px;
-        width: 150px;
-        margin-left: 20%;
-    }
-}
-
-
-
-/*====Segundo Disco DRFL====*/
-
-.drfl-contenedor {
-    margin-top: 80px;
-}
-
-.drfl-disco {
-    background-color:  rgb(32, 31, 31);
-    padding: 20px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 50px;
-    font-size: 17px;
-}
-
-.p-1-drfl {
-    padding-top: 8px;
-}
-
-.drfl-parrafos {
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 50px;
-}
-
-.a-drfl {
-    color: brown;
-    text-decoration: underline;
-}
-
-.drfl-img {
-    width: 200px;
-    height: 200px;
-    padding-top: 10px;
-}
-
-@media (max-width: 480px) {
-    .drfl-disco {
-        display: block;
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 15%;
-
-    }
-
-    .drfl-parrafos {
-        text-align: start;
-        font-size: 13px;
-        width: 120%;
-    }
-
-    .drfl-img {
-        display: block;
-        height: 150px;
-        width: 150px;
-        margin-left: 20%;
-    }
-}
-
-
-/*=====Tercer Disco LND=====*/
-
-.lnd-contenedor {
-    margin-top: 80px;
-}
-
-.lnd-disco {
-    background-color:  rgb(32, 31, 31);
-    padding: 20px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 50px;
-    font-size: 17px;
-    justify-items: center;
-}
-
-.p-1-lnd {
-    padding-bottom: 10px;
-}
-
-.p-3-lnd {
-    padding-top: 10px;
-}
-
-.lnd-parrafos {
-    padding-top: 18px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 3px;
-}
-
-.a-lnd {
-    color: brown;
-    text-decoration: underline;
-}
-
-.lnd-img {
-    width: 200px;
-    height: 200px;
-    padding-top: 10px;
-}
-
-@media (max-width: 480px) {
-    .lnd-disco {
-        display: block;
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 30%;
-
-    }
-
-    .lnd-parrafos {
-        text-align: start;
-        font-size: 13px;
-        width: 120%;
-    }
-
-    .lnd-img {
-        display: block;
-        height: 150px;
-        width: 150px;
-        margin-left: 20%;
-    }
-}
-
-
-/*=====Cuarto Disco FD=====*/
-
-.fd-contenedor {
-    margin-top: 80px;
-
-}
-
-.fd-disco {
-    background-color:  rgb(32, 31, 31);
-    padding: 20px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin: 50px;
-    font-size: 17px;
-    justify-items: center;
-}
-
-
-.fd-parrafos {
-    padding-top: 60px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.a-fd {
-    color: brown;
-    text-decoration: underline;
-}
-
-.fd-img {
-    width: 200px;
-    height: 200px;
-    padding-top: 10px;
-}
-
-@media (max-width: 480px) {
-    .fd-disco {
-        display: block;
-        margin: 10%;
-
-    }
-
-    .fd-parrafos {
-        text-align: start;
-        font-size: 13px;
-    }
-
-    .fd-img {
-        display: block;
-        height: 150px;
-        width: 150px;
-        margin-left: 20%;
-    }
-}
-
-
-/*===== Top 3 Canciones =====*/
-
-.canciones-documental {
-    display: flex;
-}
-
-.h3-top-3 {
-    padding-left: 5%;
-}
-
-.canciones-mas-escuchadas {
-    background-color:  rgb(32, 31, 31);
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    justify-items: center;
-}
-
-.canciones-parrafos {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    font-size: 12px;
-}
-
-.cancion-ld {
-    color: brown;
-    text-decoration: underline;
-    font-size: 14px;
-}
-
-.cancion-agats {
-    color: brown;
-    text-decoration: underline;
-    font-size: 14px;
-}
-
-.agats-titulo {
-    padding-top: 10px;
-}
-
-.cancion-ry {
-    color: brown;
-    text-decoration: underline;
-    font-size: 14px;
-}
-
-.ry-titulo {
-    padding-top: 10px;
-}
-
-.cancion-ld-parrafo {
-    padding-top: 7px;
-}
-
-.cancion-agats-parrafo {
-    padding-top: 7px;
-}
-
-.cancion-ry-parrafo {
-    padding-top: 7px;
-}
-
-/* ===== Documental ===== */
-
-.documental-juice {
-    background-color:  rgb(32, 31, 31);
-    display: flex;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    border: 2px solid white;
-    border-radius: 20px;
-    font-size: 13px;
-    justify-items: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-.container-documental {
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 7%;
-}
-
-.img-hbo {
-    height: 270px;
-    padding-top: 5%;
-    padding-right: 3%;
-}
-
-.h4-documental {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.parrafo-2-doc {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-@media (max-width:480px) {
-    .canciones-documental {
-        display: block;
-    }
-
-    .canciones-mas-escuchadas {
-        margin: 7%;
-    }
-
-    .documental-juice {
-        margin: 7%;
-    }
-
-    .img-hbo {
-        height: 180px;
-        padding-top: 10%;
-    }
-}
-
-
-
-
-/* ===== Ropa y Accesorios ===== */
 
 .seccion-ropa {
-    padding-top: 5%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
 }
 
 .tarjeta {
-    border: 2px solid black;
-    width: 250px;
-    height: 340px;
-    background-color: rgb(66, 21, 107);
-    color: white;
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(6, 0, 95);
+  color: white;
+  border: solid 3px rgb(107, 104, 104);
+  border-radius: 10px;
 }
-
-.tarjeta-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: blueviolet;
+.tarjeta-tarjeta-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-
-.tarjeta-body a {
-    background-color: tomato;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-decoration: none;
-    display: inline-block;
+.tarjeta h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
 }
-
-
+.tarjeta a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
 .tarjeta img {
-    width: 100%;
+  width: 100%;
 }
 
 .tarjeta-2 {
-    border: 2px solid black;
-    width: 270px;
-    height: 270px;
-    display: flex;
-    flex-direction: column;
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(6, 0, 95);
+  color: white;
+  border: solid 3px rgb(107, 104, 104);
+  border-radius: 10px;
 }
-
-.tarjeta-body-2 {
-    flex-grow: 1;
+.tarjeta-2-tarjeta-body-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-
-
+.tarjeta-2 h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+.tarjeta-2 a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
 .tarjeta-2 img {
-    width: 80%;
+  width: 100%;
 }
 
-
-
-
-/*=====Footer=====*/
-
-
-
-.container-footer {
-    background-color: rgb(44, 3, 3);
-    display: flex;
-    padding-top: 50px;
+.tarjeta-3 {
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(6, 0, 95);
+  color: white;
+  border: solid 3px rgb(107, 104, 104);
+  border-radius: 10px;
+}
+.tarjeta-3-tarjeta-body-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tarjeta-3 h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+.tarjeta-3 a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.tarjeta-3 img {
+  width: 100%;
 }
 
-.div-listas {
-    padding-left: 8%;
+.tarjeta-4 {
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(6, 0, 95);
+  color: white;
+  border: solid 3px rgb(107, 104, 104);
+  border-radius: 10px;
+}
+.tarjeta-4-tarjeta-body-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 27%;
+}
+.tarjeta-4 h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+.tarjeta-4 a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.tarjeta-4 img {
+  width: 100%;
+  padding-top: 20%;
 }
 
-.div-listas li {
-    padding-top: 15%;
-    font-size: 20px;
+.tarjeta-5 {
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(6, 0, 95);
+  color: white;
+  border: solid 3px rgb(107, 104, 104);
+  border-radius: 10px;
+}
+.tarjeta-5-tarjeta-body-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tarjeta-5 h4 {
+  font-size: 15px;
+  padding-bottom: 5%;
+}
+.tarjeta-5 a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+.tarjeta-5 img {
+  width: 100%;
 }
 
-
-.cajita-juice {
-    height: 400px;
-    padding-left: 30%;
-    padding-bottom: 20%;
+.div-info {
+  background-color: rgb(32, 31, 31);
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 30px;
+  padding-bottom: 33px;
+}
+.div-info-juice {
+  padding-top: 15px;
+}
+.div-info-juice p {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 16px;
+}
+.div-info-img-juice-1 {
+  height: 380px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+.div-info-h3-info {
+  padding-bottom: 20px;
+  padding-left: 2px;
+  text-align: center;
+}
+.div-info-h3-info-2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.div-info-parrafo-gbgr-5-años {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.div-info-parrafos-info-2 {
+  padding-left: 20px;
+  font-size: 16px;
+  padding-right: 60px;
+}
+.div-info-parrafo-posterior {
+  padding-top: 10px;
+}
+.div-info-a-gbgr-5 {
+  color: brown;
+  text-decoration: underline;
 }
 
-.h3-footer {
-    margin-left: 3%;
+.discografia {
+  text-align: center;
+  padding-top: 50px;
 }
 
-.form-class {
-    padding-top: 1%;
-    margin-left: 20%;
+.h3-albumes {
+  padding-top: 30px;
+  padding-left: 60px;
 }
 
-.form-class h3 {
-    padding-bottom: 7%;
-    padding-left: 11%;
+.gbgr-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.gbgr-disco p {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.gbgr-disco-img-gbgr-album-1 {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+.gbgr-disco a {
+  color: brown;
+  text-decoration: underline;
 }
 
-
-
-.contactos-del-desarrollador {
-    padding-left: 20%;
+.drfl-contenedor {
+  margin-top: 80px;
+}
+.drfl-contenedor-drfl-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.drfl-contenedor-drfl-disco p {
+  padding-top: 8px;
+}
+.drfl-contenedor-drfl-parrafos {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.drfl-contenedor a {
+  color: brown;
+}
+.drfl-contenedor-drfl-img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
 }
 
-.contactos-del-desarrollador li {
-    padding-top: 30%;
-    font-size: 20px;
+.lnd-contenedor {
+  margin-top: 80px;
+}
+.lnd-contenedor-lnd-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+  justify-items: center;
+}
+.lnd-contenedor-p-1-lnd {
+  padding-bottom: 10px;
+}
+.lnd-contenedor-p-3-lnd {
+  padding-top: 10px;
+}
+.lnd-contenedor-lnd-parrafos {
+  padding-top: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 3px;
+}
+.lnd-contenedor a {
+  color: brown;
+  text-decoration: underline;
+}
+.lnd-contenedor-lnd-img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
 }
 
-
-
-
-@media (max-width:420px) {
-
-    .container-footer {
-        display: block;
-    }
-
-    .div-listas li {
-        margin-right: 7%;
-        text-align: center;
-        text-decoration: underline;
-        list-style: none;
-        font-size: 17px;
-        padding-top: 7%;
-    }
-
-
-    .h3-footer {
-        margin-top: 10%;
-    }
-
-    .form-class {
-        margin-top: 5%;
-        margin-left: 15%;
-        margin-right: 10%;
-    }
-
-    .form-class input {
-        margin-left: 20%;
-        margin-top: 3%;
-    }
-
-    .form-class p {
-        padding-left: 34%;
-    }
-
-    .form-class button {
-        display: flex;
-        margin-left: 37%;
-        margin-top: 3%;
-    }
-
-    .cajita-juice {
-        height: 70%;
-        width: 70%;
-    }
-
-    .contactos-del-desarrollador li{
-        text-align: center;
-        list-style: none;
-        margin-right: 10%;
-        font-size: 17px;
-        padding-top: 15%;
-    }
+.fd-contenedor {
+  margin-top: 80px;
+}
+.fd-contenedor-fd-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+  justify-items: center;
+}
+.fd-contenedor p {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.fd-contenedor a {
+  color: brown;
+  text-decoration: underline;
+}
+.fd-contenedor-fd-img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
 }
 
-
-/* ===== Contactos =====*/
-
-
-.container-contactos input{
-    display: block;
-    margin-top: 8%;
-    height: 30px;
-    width: 100%;
-    border-radius: 7px;
+.canciones-documental {
+  display: flex;
 }
 
-.container-contactos h2 {
-    padding-right: 10%;
-    padding-bottom: 3%;
+.h3-top-3 {
+  padding-left: 5%;
 }
 
-.container-contactos {
-    background-color: rgb(41, 41, 41);
-    border: solid 4px rgb(146, 3, 3);
-    border-radius: 20px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 35%;
-    margin-right: 35%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 8%;
-    padding-bottom: 10%;
+.canciones-mas-escuchadas {
+  background-color: rgb(32, 31, 31);
+  margin: 2%;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  justify-items: center;
+}
+.canciones-mas-escuchadas p {
+  padding: 5%;
+  font-size: 12px;
+}
+.canciones-mas-escuchadas a {
+  color: brown;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-left: 5%;
 }
 
-.container-contactos button{
-    margin-top: 8%;
-    height: 25px;
-    width: 100%;
+/* ===== Documental ===== */
+.documental-juice-h3 {
+  display: flex;
+  padding-left: 60%;
 }
 
-@media (max-width:420px) {
-
-    .container-contactos input {
-        display: block;
-        height: 25px;
-        width: 100%;
-        border-radius: 7px;
-    }
-
-    .container-contactos h2 {
-        padding-bottom: 12%;
-    }
-
-    .container-contactos {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .container-contactos button {
-        margin-top: 10%;
-    }
-
+.documental-juice {
+  background-color: rgb(32, 31, 31);
+  display: flex;
+  margin: 2%;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 13px;
+  justify-items: center;
+}
+.documental-juice p {
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 7%;
+}
+.documental-juice h3 {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+.documental-juice-img-hbo {
+  height: 270px;
+  padding-top: 5%;
+  padding-right: 3%;
+}
+.documental-juice-h4-documental {
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.documental-juice li {
+  list-style: none;
+  padding-top: 5%;
+  padding-left: 3%;
 }
 
-
-
+/*# sourceMappingURL=style.css.map */
