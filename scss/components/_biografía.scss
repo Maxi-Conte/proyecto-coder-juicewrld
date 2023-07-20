@@ -1,11 +1,5 @@
 .div-info {
-    background-color: rgb(32, 31, 31);
-    display: flex;
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 8px;
-    margin: 30px;
-    padding-bottom: 33px;
+    @include medidas-biografia;
 
     &-juice {
         padding-top: 15px;
@@ -15,13 +9,14 @@
         padding-left: 3%;
         padding-right: 3%;
         font-size: 16px;
+        padding-top: 2%;
     }
 
     &-img-juice-1 {
         height: 380px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 50px;
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-right: 50px;
     }
 
     &-h3-info {
@@ -32,8 +27,8 @@
 
     &-h3-info-2 {
         padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: center;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
     &-parrafo-gbgr-5-años {
