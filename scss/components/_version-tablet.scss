@@ -1,0 +1,375 @@
+// MEDIA QUERIES HEADER //
+
+@media (max-width:720px) {
+    .header {
+        display: flex;
+        background-color: rgb(15, 80, 100);
+        width: 100%;
+    }
+    
+    .header-h1-juice { 
+        display: flex;
+        padding-left: 25%;
+        padding-bottom: 5%;
+        height: 10px;
+    }
+    
+    .header-img-999 {
+        display: flex;
+    }
+    
+    .header-nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-barra-nav {
+        padding: 20%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .header-barra-nav li {
+        display: flex;
+        padding-top: 10%;
+        font-size: 17px;
+        text-decoration: underline;
+        align-items: center;
+    }
+}
+
+// MEDIA QUERIES BIOGRAFÍA //
+
+@media (max-width:720px) {
+    .div-info {
+        display: block;
+    }
+
+    .div-info-info-juice {
+        font-size: 14px;
+    }
+
+    .div-info-parrafos-juice-1 {
+        font-size: 11px;
+        text-align: start;
+        padding-top: 8px;
+    }
+
+    .div-info-parrafos-info-2 {
+        font-size: 11px;
+        text-align: start;
+    }
+
+    .div-info-img-juice-1 {
+        display: block;
+        height: 370px;
+        padding-left: 35%;
+    }
+
+    .div-info-h3-info-2 {
+        font-size: 17px;
+        padding-top: 50px;
+    }
+
+}
+
+/*===== MEDIA QUERIES ALBUMES =====*/ 
+
+
+// ALBUM 1 //
+
+@media (max-width: 720px) {
+
+    .gbgr-disco {
+        @include cajas-albumes
+    }
+
+    .gbgr-disco p {
+        @include parrafos-albumes
+    }
+
+    .gbgr-disco-img-gbgr-album-1 {
+        @include medidas-img-albumes-responsive-tablet
+    }
+}
+
+
+// ALBUM 2 //
+
+@media (max-width: 720px) {
+    .drfl-contenedor-drfl-disco {
+        @include cajas-albumes
+    }
+
+    .drfl-contenedor-drfl-parrafos {
+        @include parrafos-albumes
+    }
+
+    .drfl-contenedor-drfl-img {
+        @include medidas-img-albumes-responsive-tablet
+    }
+}
+
+// ALBUM 3 //
+
+@media (max-width: 720px) {
+    .lnd-contenedor-lnd-disco {
+        @include cajas-albumes
+    }
+
+    .lnd-contenedor-lnd-disco p{
+        @include parrafos-albumes
+    }
+
+    .lnd-contenedor-lnd-img {
+        @include medidas-img-albumes-responsive-tablet
+    }
+}
+
+// ALBUM 4 // 
+
+@media (max-width: 780px) {
+    .fd-contenedor-fd-disco {
+        @include cajas-albumes
+    }
+
+    .fd-contenedor-fd-parrafos {
+        @include parrafos-albumes
+    }
+
+    .fd-contenedor-fd-img {
+        @include medidas-img-albumes-responsive-tablet
+    }
+}
+
+// MEDIA QUERIES 3 CANCIONES - DOCUMENTAL //
+
+@media (max-width:720px) {
+    .canciones-documental {
+        display: block;
+    }
+
+    .canciones-mas-escuchadas {
+        margin: 3%;
+    }
+
+    .documental-juice {
+        margin: 3%;
+
+        & h3 {
+            text-align: center;
+        }
+
+        & p {
+            padding-top: 5%;
+        }
+    }
+
+    .documental-juice-img-hbo {
+        height: 370px;
+        padding-top: 10%;
+    }
+}
+
+// MEDIA QUERIES ROPA //
+
+@media (max-width: 720px) {
+
+    .seccion-ropa {
+        padding-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 10%;
+        
+    }
+    
+    .tarjeta {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    .tarjeta-2 {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    .tarjeta-3 {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    .tarjeta-4 {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 15%;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    .tarjeta-5 {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-right: 15%;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    .tarjeta-6 {
+        height: 270px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(6, 0, 95);
+        color: white;
+        border: solid 3px rgb(107, 104, 104);
+        border-radius: 10px;
+        margin-top: 5%;
+    
+        & img {
+            width: 75%;
+            margin-left: 15%;
+        }
+    
+        & h4 {
+            text-align: center;
+        }
+    }
+    
+    }
+
+
+
+
+
+// MEDIA QUERIES FOOTER //
+
+@media (max-width: 720px) {
+
+    .container-footer {
+        display: block;
+    }
+
+    .container-footer-div-listas li {
+        text-align: center;
+        padding-right: 10%;
+        text-decoration: underline;
+        list-style: none;
+        font-size: 17px;
+        padding-top: 7%;
+    }
+
+
+    .container-footer h3 {
+        margin-top: 10%;
+        padding-left: 9%;
+    }
+
+    .container-footer p {
+        padding-bottom: 4%;
+        padding-top: 4%;
+        padding-left: 35%;
+    }
+
+    .container-footer-form-class {
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 10%;
+    }
+
+    .form-class input {
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+
+    .form-class p {
+        padding-left: 34%;
+    }
+
+    .form-class button {
+        display: flex;
+        margin-left: 37%;
+        margin-top: 3%;
+    }
+
+    .container-footer-cajita-juice {
+        height: 70%;
+        width: 70%;
+    }
+
+    .container-footer-contactos-del-desarrollador{
+        display: block;
+        text-align: center;
+        list-style: none;
+        padding-right: 55%;
+        font-size: 17px;
+        padding-top: 15%;
+    }
+}
