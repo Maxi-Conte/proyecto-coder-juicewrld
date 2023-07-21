@@ -1,12 +1,12 @@
 $c-marron: brown;
 $c-negro: black;
 $c-blanco: white;
-$c-azuloscuro1:rgb(22, 50, 66);
+$c-azuloscuro1: rgb(22, 50, 66);
 $c-azuloscuro2: rgb(15, 80, 100);
-$c-cajas:rgb(32, 31, 31);
+$c-cajas: rgb(32, 31, 31);
 $c-footer: rgb(44, 3, 3);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +16,7 @@ a {
     text-decoration: underline;
     height: 18px;
     color: white;
+
     &:hover {
         color: blue;
     }
@@ -35,7 +36,7 @@ html {
 
 
 @mixin discografia {
-    background-color:  rgb(32, 31, 31);
+    background-color: rgb(32, 31, 31);
     padding: 20px;
     display: flex;
     border: 2px solid white;
@@ -60,8 +61,6 @@ html {
     padding-bottom: 33px;
 }
 
-
-/*===== MIXINS RESPONSIVE MOBILE =====*/
 
 @mixin medidas-img-albumes-responsive {
     display: block;
@@ -103,11 +102,11 @@ html {
     text-align: center;
 }
 
-// MIXINS RESPONSIVE TABLET //
-
 @mixin medidas-img-albumes-responsive-tablet {
     display: block;
     height: 150px;
     width: 150px;
     margin-left: 33%;
 }
+
+

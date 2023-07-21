@@ -8,8 +8,17 @@
     padding-left: 60px;
 }
 
-.gbgr-disco {
-        @include discografia;
+/*.gbgr-contendor {
+
+    .gbgr-disco {
+        background-color: rgb(32, 31, 31);
+        padding: 20px;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        font-size: 17px;
+    }
 
     & p {
         padding: 20px 10px 3px 50px;
@@ -26,12 +35,44 @@
             color: blue;
         }
     }
+}*/
+
+.gbgr-contenedor {
+
+
+    &-gbgr-disco {
+        @include discografia
+    }
+
+
+    &-gbgr-disco p {
+        padding-top: 8px;
+    }
+
+    &-parrafo-gbgr {
+        padding: 20px 10px 3px 50px;
+    }
+
+    & a {
+        color: brown;
+        &:hover {
+            color: blue;
+        }
+    }
+
+    &-img-gbgr-album-1 {
+        @include medidas-img-albumes;
+    }
 }
 
 
 .drfl-contenedor {
-    margin-top: 80px;
 
+
+    &-drfl-disco {
+        @include discografia;
+    }
+    
     &-drfl-disco {
         @include discografia;
     }
@@ -53,6 +94,7 @@
 
     &-drfl-img {
         @include medidas-img-albumes;
+    
     }
 }
 
