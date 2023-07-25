@@ -369,7 +369,7 @@
     
     .header h1 { 
         display: flex;
-        padding-left: 28%;
+        padding-left: 20%;
         padding-bottom: 4.5%;
         height: 10px;
     }
@@ -403,7 +403,7 @@
 
 // MEDIA QUERIES BIOGRAFÍA //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .div-info {
         display: block;
@@ -422,11 +422,14 @@
     .div-info-parrafos-info-2 {
         font-size: 11px;
         text-align: start;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .div-info-img-juice-1 {
         height: 370px;
-        padding-left: 35%;
+        padding-left: 27%;
     }
 
     .div-info-h3-info-2 {
@@ -441,7 +444,7 @@
 
 // ALBUM 1 //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .gbgr-contenedor-gbgr-disco {
         @include cajas-albumes
@@ -459,7 +462,7 @@
 
 // ALBUM 2 //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .drfl-contenedor-drfl-disco {
         @include cajas-albumes
     }
@@ -475,7 +478,7 @@
 
 // ALBUM 3 //
 
-@media only screen and (min-width: 421px) and (max-width: 720px){
+@media only screen and (min-width: 497px) and (max-width: 720px){
     .lnd-contenedor-lnd-disco {
         @include cajas-albumes
     }
@@ -491,7 +494,7 @@
 
 // ALBUM 4 // 
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .fd-contenedor-fd-disco {
         @include cajas-albumes
     }
@@ -507,7 +510,7 @@
 
 // MEDIA QUERIES 3 CANCIONES - DOCUMENTAL //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .canciones-documental {
         display: block;
     }
@@ -528,15 +531,15 @@
         }
     }
 
-    .documental-juice-img-hbo {
-        height: 370px;
-        padding-top: 10%;
+    .documental-juice-img-hbo-1 {
+        height: 280px;
+        margin-top: 15%;
     }
 }
 
 // MEDIA QUERIES ROPA //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .seccion-ropa {
         padding-top: 5%;
@@ -549,12 +552,13 @@
     
     .articulo-1 {
         height: 270px;
-        width: 200px;
+        width: 220px;
         border: 2px solid black;
         background-color: rgb(6, 0, 95);
         color: white;
         border: solid 3px rgb(107, 104, 104);
         border-radius: 10px;
+        margin-left: 3%;
     
         & img {
             width: 75%;
@@ -568,12 +572,13 @@
     
     .articulo-2 {
         height: 270px;
-        width: 200px;
+        width: 220px;
         border: 2px solid black;
         background-color: rgb(6, 0, 95);
         color: white;
         border: solid 3px rgb(107, 104, 104);
         border-radius: 10px;
+        margin-right: 3%;
     
         & img {
             width: 75%;
@@ -587,12 +592,14 @@
     
     .articulo-3 {
         height: 270px;
-        width: 200px;
+        width: 220px;
         border: 2px solid black;
         background-color: rgb(6, 0, 95);
         color: white;
         border: solid 3px rgb(107, 104, 104);
         border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 3%;
     
         & img {
             width: 75%;
@@ -606,14 +613,14 @@
     
     .articulo-4 {
         height: 270px;
-        width: 200px;
+        width: 220px;
         border: 2px solid black;
         background-color: rgb(6, 0, 95);
         color: white;
         border: solid 3px rgb(107, 104, 104);
         border-radius: 10px;
         margin-top: 5%;
-        margin-left: 15%;
+        margin-right: 3%;
     
         & img {
             width: 75%;
@@ -627,14 +634,14 @@
     
     .articulo-5 {
         height: 270px;
-        width: 200px;
+        width: 220px;
         border: 2px solid black;
         background-color: rgb(6, 0, 95);
         color: white;
         border: solid 3px rgb(107, 104, 104);
         border-radius: 10px;
         margin-top: 5%;
-        margin-right: 15%;
+        margin-left: 29.5%;
     
         & img {
             width: 75%;
@@ -654,7 +661,7 @@
 
 // MEDIA QUERIES FOOTER //
 
-@media only screen and (min-width: 421px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .redes-juice-h2 {
         text-align: center;
@@ -693,7 +700,7 @@
         justify-content: center;
         align-items: center;
         height: 50vh;
-        padding-right: 25%;
+        padding-right: 38%;
     }
 
     .container-footer-contactos-del-desarrollador ul li {
