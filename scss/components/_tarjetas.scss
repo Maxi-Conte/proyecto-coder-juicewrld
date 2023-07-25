@@ -11,7 +11,7 @@
     padding-bottom: 10%;
 }
 
-.tarjeta {
+.articulo-1 {
     border: 2px solid black;
     width: 250px;
     height: 350px;
@@ -45,7 +45,7 @@
 }
 
 
-.tarjeta-2 {
+.articulo-2 {
             border: 2px solid black;
             width: 250px;
             height: 350px;
@@ -79,7 +79,7 @@
 }
 
 
-.tarjeta-3 {
+.articulo-3 {
     border: 2px solid black;
     width: 250px;
     height: 350px;
@@ -112,7 +112,7 @@
     }
 }
 
-.tarjeta-4 {
+.articulo-4 {
     border: 2px solid black;
     width: 250px;
     height: 350px;
@@ -147,7 +147,7 @@
     }
 }
 
-.tarjeta-5 {
+.articulo-5 {
     border: 2px solid black;
     width: 250px;
     height: 350px;
@@ -180,38 +180,3 @@
     }
 }
 
-.tarjeta-6 {
-    border: 2px solid black;
-    width: 250px;
-    height: 350px;
-    background-color: rgb(6, 0, 95);
-    color: white;
-    border: solid 3px rgb(107, 104, 104);
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-left: 40.9%;
-
-    &-tarjeta-body-5 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    & h4 {
-        font-size: 15px;
-        padding-bottom: 5%;
-        text-align: center;
-    }
-
-    & a {
-        color: white;
-        padding: 10px;
-        text-decoration: underline;
-        display: inline-block;
-        }
-
-    & img {
-        width: 100%;
-    }
-}

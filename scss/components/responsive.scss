@@ -7,9 +7,9 @@
         width: 100%;
     }
     
-    .header-h1-juice { 
+    .header h1 { 
         display: flex;
-        padding-left: 10%;
+        padding-left: 9%;
         padding-bottom: 8%;
         height: 10px;
     }
@@ -23,16 +23,16 @@
         padding-right: 20px;
     }
 
-    .header-barra-nav {
-        padding: 15%;
+    .header-barra-nav{
+        padding: 8%;
         font-size: 12px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
 
-    .header-barra-nav li {
+    .header-barra-nav ul li {
         display: flex;
-        padding-top: 7%;
+        padding-top: 15%;
         font-size: 15px;
         text-decoration: underline;
     }
@@ -61,10 +61,9 @@
         text-align: start;
     }
 
-    .div-info-img-juice-1 {
+    .div-info img {
         display: block;
-        height: 280px;
-        padding-left: 30%;
+        height: 350px;
     }
 
     .div-info-h3-info-2 {
@@ -107,7 +106,7 @@
         @include parrafos-albumes
     }
 
-    .drfl-contenedor-drfl-img {
+    .drfl-contenedor-drfl-img-1 {
         @include medidas-img-albumes-responsive
     }
 }
@@ -123,7 +122,7 @@
         @include parrafos-albumes
     }
 
-    .lnd-contenedor-lnd-img {
+    .lnd-contenedor-lnd-img-1 {
         @include medidas-img-albumes-responsive
     }
 }
@@ -139,7 +138,7 @@
         @include parrafos-albumes
     }
 
-    .fd-contenedor-fd-img {
+    .fd-contenedor-fd-img-1 {
         @include medidas-img-albumes-responsive
     }
 }    
@@ -167,9 +166,9 @@
         }
     }
 
-    .documental-juice-img-hbo {
-        height: 210px;
-        padding-top: 10%;
+    .documental-juice-img-hbo-1 {
+        height: 250px;
+        margin-top: 30%;
     }
 }
 
@@ -187,7 +186,7 @@
     
 }
 
-.tarjeta {
+.articulo-1 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -206,7 +205,7 @@
     }
 }
 
-.tarjeta-2 {
+.articulo-2 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -225,7 +224,7 @@
     }
 }
 
-.tarjeta-3 {
+.articulo-3 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -245,7 +244,7 @@
     }
 }
 
-.tarjeta-4 {
+.articulo-4 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -265,7 +264,7 @@
     }
 }
 
-.tarjeta-5 {
+.articulo-5 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -274,26 +273,7 @@
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
     margin-top: 5%;
-
-    & img {
-        width: 75%;
-        margin-left: 15%;
-    }
-
-    & h4 {
-        text-align: center;
-    }
-}
-
-.tarjeta-6 {
-    height: 270px;
-    width: 200px;
-    border: 2px solid black;
-    background-color: rgb(6, 0, 95);
-    color: white;
-    border: solid 3px rgb(107, 104, 104);
-    border-radius: 10px;
-    margin-top: 5%;
+    margin-left: 26%;
 
     & img {
         width: 75%;
@@ -308,46 +288,44 @@
 }
 
 @media (max-width:420px) {
-
-    .container-footer {
-        display: block;
+    .redes-juice-h2 {
+        text-align: center;
+        background-color: rgb(44, 3, 3);
+        padding-top: 10%;
     }
 
-    .container-footer-div-listas li {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-footer-div-listas ul li {
         padding-left: 25%;
         padding-bottom: 1%;
     }
 
-    .container-footer-container-contactos input {
+    .container-footer-form-class {
+        display: block;
+    }
+
+    .container-footer-container-contactos form input {
         display: block;
         height: 25px;
         width: 100%;
         border-radius: 7px;
     }
 
-    .container-footer-form-class {
-        display: block;
-        padding-top: 15%;
-    }
-
-    .container-footer-container-contactos h2 {
-        padding-bottom: 5%;
-    }
-
-    .container-footer-container-contactos {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
     .container-contactos button {
         margin-top: 10%;
     }
 
-    .container-footer-contactos-del-desarrollador {
+    .container-footer-contactos-del-desarrollador ul li {
+        display: block;
         padding-right: 60%;
     }
 
 }
+
 
 // TABLET //
 
@@ -360,10 +338,10 @@
         width: 100%;
     }
     
-    .header-h1-juice { 
+    .header h1 { 
         display: flex;
-        padding-left: 25%;
-        padding-bottom: 5%;
+        padding-left: 28%;
+        padding-bottom: 4.5%;
         height: 10px;
     }
     
@@ -372,23 +350,26 @@
     }
     
     .header-nav {
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .header-barra-nav {
-        padding: 20%;
+    .header-barra-nav{
+        padding: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 12px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
 
-    .header-barra-nav li {
+    .header-barra-nav ul li {
         display: flex;
-        padding-top: 10%;
-        font-size: 17px;
+        padding-top: 15%;
+        font-size: 15px;
         text-decoration: underline;
-        align-items: center;
     }
+
 }
 
 // MEDIA QUERIES BIOGRAFÍA //
@@ -433,15 +414,15 @@
 
 @media (max-width: 720px) {
 
-    .gbgr-disco {
+    .gbgr-contenedor-gbgr-disco {
         @include cajas-albumes
     }
 
-    .gbgr-disco p {
+    .gbgr-contenedor-gbgr-disco p {
         @include parrafos-albumes
     }
 
-    .gbgr-disco-img-gbgr-album-1 {
+    .gbgr-contenedor-img-gbgr-album-1 {
         @include medidas-img-albumes-responsive-tablet
     }
 }
@@ -458,7 +439,7 @@
         @include parrafos-albumes
     }
 
-    .drfl-contenedor-drfl-img {
+    .drfl-contenedor-drfl-img-1 {
         @include medidas-img-albumes-responsive-tablet
     }
 }
@@ -474,7 +455,7 @@
         @include parrafos-albumes
     }
 
-    .lnd-contenedor-lnd-img {
+    .lnd-contenedor-lnd-img-1 {
         @include medidas-img-albumes-responsive-tablet
     }
 }
@@ -490,7 +471,7 @@
         @include parrafos-albumes
     }
 
-    .fd-contenedor-fd-img {
+    .fd-contenedor-fd-img-1 {
         @include medidas-img-albumes-responsive-tablet
     }
 }
@@ -537,7 +518,7 @@
         
     }
     
-    .tarjeta {
+    .articulo-1 {
         height: 270px;
         width: 200px;
         border: 2px solid black;
@@ -556,7 +537,7 @@
         }
     }
     
-    .tarjeta-2 {
+    .articulo-2 {
         height: 270px;
         width: 200px;
         border: 2px solid black;
@@ -575,7 +556,7 @@
         }
     }
     
-    .tarjeta-3 {
+    .articulo-3 {
         height: 270px;
         width: 200px;
         border: 2px solid black;
@@ -594,7 +575,7 @@
         }
     }
     
-    .tarjeta-4 {
+    .articulo-4 {
         height: 270px;
         width: 200px;
         border: 2px solid black;
@@ -615,7 +596,7 @@
         }
     }
     
-    .tarjeta-5 {
+    .articulo-5 {
         height: 270px;
         width: 200px;
         border: 2px solid black;
@@ -635,28 +616,8 @@
             text-align: center;
         }
     }
-    
-    .tarjeta-6 {
-        height: 270px;
-        width: 200px;
-        border: 2px solid black;
-        background-color: rgb(6, 0, 95);
-        color: white;
-        border: solid 3px rgb(107, 104, 104);
-        border-radius: 10px;
-        margin-top: 5%;
-    
-        & img {
-            width: 75%;
-            margin-left: 15%;
-        }
-    
-        & h4 {
-            text-align: center;
-        }
-    }
-    
-    }
+
+}
 
 
 
@@ -666,64 +627,81 @@
 
 @media (max-width: 720px) {
 
-    .container-footer {
-        display: block;
-    }
-
-    .container-footer-div-listas li {
+    .redes-juice-h2 {
         text-align: center;
-        padding-right: 10%;
-        text-decoration: underline;
-        list-style: none;
-        font-size: 17px;
-        padding-top: 7%;
+        background-color: rgb(44, 3, 3);
+        padding-top: 10%;
     }
 
-
-    .container-footer h3 {
-        margin-top: 10%;
-        padding-left: 9%;
+    .container-footer {
+        display: flex;
+        flex-direction: column;
     }
 
-    .container-footer p {
-        padding-bottom: 4%;
-        padding-top: 4%;
-        padding-left: 35%;
+    .container-footer-div-listas {
+        text-align: center;
+        padding-right: 8%;
+        padding-bottom: 20%;
     }
 
     .container-footer-form-class {
-        margin-top: 5%;
-        margin-left: 25%;
-        margin-right: 10%;
-    }
-
-    .form-class input {
-        margin-left: 20%;
-        margin-top: 3%;
-    }
-
-    .form-class p {
-        padding-left: 34%;
-    }
-
-    .form-class button {
-        display: flex;
-        margin-left: 37%;
-        margin-top: 3%;
-    }
-
-    .container-footer-cajita-juice {
-        height: 70%;
-        width: 70%;
-    }
-
-    .container-footer-contactos-del-desarrollador{
         display: block;
-        text-align: center;
-        list-style: none;
-        padding-right: 55%;
-        font-size: 17px;
-        padding-top: 15%;
     }
+
+    .container-footer-container-contactos form input {
+        display: block;
+        height: 25px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .container-contactos button {
+        margin-top: 10%;
+    }
+
+    .container-footer-contactos-del-desarrollador {
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        padding-right: 25%;
+    }
+
+    .container-footer-contactos-del-desarrollador ul li {
+        display: block;
+        list-style: none;
+        text-align: center;
+    }
+
+    .container-footer-contactos-del-desarrollador li {
+        padding-bottom: 50%;
+    }
+
 }
 
+
+// CONTACTOS //
+
+@media (max-width:420px) {
+
+    .container-contactos input {
+        display: block;
+        height: 25px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .container-contactos h2 {
+        padding-bottom: 12%;
+    }
+
+    .container-contactos {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .container-contactos button {
+        margin-top: 10%;
+    }
+
+}

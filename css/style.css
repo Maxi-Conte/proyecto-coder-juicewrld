@@ -24,6 +24,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.redes-juice-h2 {
+  text-align: center;
+  background-color: rgb(44, 3, 3);
+  padding-top: 3%;
+}
+
 .container-footer {
   background-color: rgb(44, 3, 3);
   display: flex;
@@ -80,6 +86,7 @@ html {
   display: flex;
   align-items: center;
   padding-left: 40px;
+  padding-bottom: 1%;
   justify-content: space-evenly;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -88,6 +95,7 @@ html {
   display: inline-flex;
   margin-right: 30px;
   margin-left: 30px;
+  padding-top: 1.5%;
 }
 
 .h2-ropa-accesorios {
@@ -103,7 +111,7 @@ html {
   padding-bottom: 10%;
 }
 
-.tarjeta {
+.articulo-1 {
   border: 2px solid black;
   width: 250px;
   height: 350px;
@@ -112,27 +120,27 @@ html {
   border: solid 3px rgb(107, 104, 104);
   border-radius: 10px;
 }
-.tarjeta-tarjeta-body {
+.articulo-1-tarjeta-body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.tarjeta h4 {
+.articulo-1 h4 {
   font-size: 15px;
   padding-bottom: 5%;
 }
-.tarjeta a {
+.articulo-1 a {
   color: white;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
 }
-.tarjeta img {
+.articulo-1 img {
   width: 100%;
 }
 
-.tarjeta-2 {
+.articulo-2 {
   border: 2px solid black;
   width: 250px;
   height: 350px;
@@ -141,27 +149,27 @@ html {
   border: solid 3px rgb(107, 104, 104);
   border-radius: 10px;
 }
-.tarjeta-2-tarjeta-body-2 {
+.articulo-2-tarjeta-body-2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.tarjeta-2 h4 {
+.articulo-2 h4 {
   font-size: 15px;
   padding-bottom: 5%;
 }
-.tarjeta-2 a {
+.articulo-2 a {
   color: white;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
 }
-.tarjeta-2 img {
+.articulo-2 img {
   width: 100%;
 }
 
-.tarjeta-3 {
+.articulo-3 {
   border: 2px solid black;
   width: 250px;
   height: 350px;
@@ -170,27 +178,27 @@ html {
   border: solid 3px rgb(107, 104, 104);
   border-radius: 10px;
 }
-.tarjeta-3-tarjeta-body-3 {
+.articulo-3-tarjeta-body-3 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.tarjeta-3 h4 {
+.articulo-3 h4 {
   font-size: 15px;
   padding-bottom: 5%;
 }
-.tarjeta-3 a {
+.articulo-3 a {
   color: white;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
 }
-.tarjeta-3 img {
+.articulo-3 img {
   width: 100%;
 }
 
-.tarjeta-4 {
+.articulo-4 {
   border: 2px solid black;
   width: 250px;
   height: 350px;
@@ -199,29 +207,29 @@ html {
   border: solid 3px rgb(107, 104, 104);
   border-radius: 10px;
 }
-.tarjeta-4-tarjeta-body-4 {
+.articulo-4-tarjeta-body-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding-top: 27%;
 }
-.tarjeta-4 h4 {
+.articulo-4 h4 {
   font-size: 15px;
   padding-bottom: 5%;
 }
-.tarjeta-4 a {
+.articulo-4 a {
   color: white;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
 }
-.tarjeta-4 img {
+.articulo-4 img {
   width: 100%;
   padding-top: 20%;
 }
 
-.tarjeta-5 {
+.articulo-5 {
   border: 2px solid black;
   width: 250px;
   height: 350px;
@@ -230,55 +238,23 @@ html {
   border: solid 3px rgb(107, 104, 104);
   border-radius: 10px;
 }
-.tarjeta-5-tarjeta-body-5 {
+.articulo-5-tarjeta-body-5 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.tarjeta-5 h4 {
+.articulo-5 h4 {
   font-size: 15px;
   padding-bottom: 5%;
 }
-.tarjeta-5 a {
+.articulo-5 a {
   color: white;
   padding: 10px;
   text-decoration: none;
   display: inline-block;
 }
-.tarjeta-5 img {
-  width: 100%;
-}
-
-.tarjeta-6 {
-  border: 2px solid black;
-  width: 250px;
-  height: 350px;
-  background-color: rgb(6, 0, 95);
-  color: white;
-  border: solid 3px rgb(107, 104, 104);
-  border-radius: 10px;
-  margin-top: 5%;
-  margin-left: 40.9%;
-}
-.tarjeta-6-tarjeta-body-5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.tarjeta-6 h4 {
-  font-size: 15px;
-  padding-bottom: 5%;
-  text-align: center;
-}
-.tarjeta-6 a {
-  color: white;
-  padding: 10px;
-  text-decoration: underline;
-  display: inline-block;
-}
-.tarjeta-6 img {
+.articulo-5 img {
   width: 100%;
 }
 
@@ -303,7 +279,7 @@ html {
 .div-info-img-juice-1 {
   height: 380px;
   padding-left: 20px;
-  padding-top: 30px;
+  margin-top: 8%;
   padding-right: 50px;
 }
 .div-info-h3-info {
@@ -343,34 +319,6 @@ html {
   padding-left: 60px;
 }
 
-/*.gbgr-contendor {
-
-    .gbgr-disco {
-        background-color: rgb(32, 31, 31);
-        padding: 20px;
-        display: flex;
-        border: 2px solid white;
-        border-radius: 20px;
-        margin: 50px;
-        font-size: 17px;
-    }
-
-    & p {
-        padding: 20px 10px 3px 50px;
-    }
-
-    &-img-gbgr-album-1 {
-        @include medidas-img-albumes;
-    }
-
-    & a {
-        color: brown;
-        text-decoration: underline;
-        &:hover {
-            color: blue;
-        }
-    }
-}*/
 .gbgr-contenedor-gbgr-disco {
   background-color: rgb(32, 31, 31);
   padding: 20px;
@@ -428,7 +376,7 @@ html {
 .drfl-contenedor a:hover {
   color: blue;
 }
-.drfl-contenedor-drfl-img {
+.drfl-contenedor-drfl-img-1 {
   width: 200px;
   height: 200px;
   padding-top: 10px;
@@ -462,7 +410,7 @@ html {
 .lnd-contenedor a:hover {
   color: blue;
 }
-.lnd-contenedor-lnd-img {
+.lnd-contenedor-lnd-img-1 {
   width: 200px;
   height: 200px;
   padding-top: 10px;
@@ -551,8 +499,8 @@ html {
   padding-left: 20%;
   padding-top: 5%;
 }
-.documental-juice-img-hbo {
-  height: 270px;
+.documental-juice-img-hbo-1 {
+  height: 350px;
   padding-top: 5%;
   padding-right: 3%;
 }
@@ -573,9 +521,9 @@ html {
     background-color: rgb(15, 80, 100);
     width: 100%;
   }
-  .header-h1-juice {
+  .header h1 {
     display: flex;
-    padding-left: 10%;
+    padding-left: 9%;
     padding-bottom: 8%;
     height: 10px;
   }
@@ -587,14 +535,14 @@ html {
     padding-right: 20px;
   }
   .header-barra-nav {
-    padding: 15%;
+    padding: 8%;
     font-size: 12px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
-  .header-barra-nav li {
+  .header-barra-nav ul li {
     display: flex;
-    padding-top: 7%;
+    padding-top: 15%;
     font-size: 15px;
     text-decoration: underline;
   }
@@ -615,10 +563,9 @@ html {
     font-size: 11px;
     text-align: start;
   }
-  .div-info-img-juice-1 {
+  .div-info img {
     display: block;
-    height: 280px;
-    padding-left: 30%;
+    height: 350px;
   }
   .div-info-h3-info-2 {
     font-size: 17px;
@@ -658,7 +605,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .drfl-contenedor-drfl-img {
+  .drfl-contenedor-drfl-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -678,7 +625,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .lnd-contenedor-lnd-img {
+  .lnd-contenedor-lnd-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -698,7 +645,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .fd-contenedor-fd-img {
+  .fd-contenedor-fd-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -721,9 +668,9 @@ html {
   .documental-juice p {
     padding-top: 5%;
   }
-  .documental-juice-img-hbo {
-    height: 210px;
-    padding-top: 10%;
+  .documental-juice-img-hbo-1 {
+    height: 250px;
+    margin-top: 30%;
   }
 }
 @media (max-width: 420px) {
@@ -734,7 +681,7 @@ html {
     justify-content: space-between;
     padding-bottom: 10%;
   }
-  .tarjeta {
+  .articulo-1 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -743,14 +690,14 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
   }
-  .tarjeta img {
+  .articulo-1 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta h4 {
+  .articulo-1 h4 {
     text-align: center;
   }
-  .tarjeta-2 {
+  .articulo-2 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -759,14 +706,14 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
   }
-  .tarjeta-2 img {
+  .articulo-2 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-2 h4 {
+  .articulo-2 h4 {
     text-align: center;
   }
-  .tarjeta-3 {
+  .articulo-3 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -776,14 +723,14 @@ html {
     border-radius: 10px;
     margin-top: 5%;
   }
-  .tarjeta-3 img {
+  .articulo-3 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-3 h4 {
+  .articulo-3 h4 {
     text-align: center;
   }
-  .tarjeta-4 {
+  .articulo-4 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -793,14 +740,14 @@ html {
     border-radius: 10px;
     margin-top: 5%;
   }
-  .tarjeta-4 img {
+  .articulo-4 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-4 h4 {
+  .articulo-4 h4 {
     text-align: center;
   }
-  .tarjeta-5 {
+  .articulo-5 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -809,61 +756,44 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
     margin-top: 5%;
+    margin-left: 26%;
   }
-  .tarjeta-5 img {
+  .articulo-5 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-5 h4 {
-    text-align: center;
-  }
-  .tarjeta-6 {
-    height: 270px;
-    width: 200px;
-    border: 2px solid black;
-    background-color: rgb(6, 0, 95);
-    color: white;
-    border: solid 3px rgb(107, 104, 104);
-    border-radius: 10px;
-    margin-top: 5%;
-  }
-  .tarjeta-6 img {
-    width: 75%;
-    margin-left: 15%;
-  }
-  .tarjeta-6 h4 {
+  .articulo-5 h4 {
     text-align: center;
   }
 }
 @media (max-width: 420px) {
-  .container-footer {
-    display: block;
+  .redes-juice-h2 {
+    text-align: center;
+    background-color: rgb(44, 3, 3);
+    padding-top: 10%;
   }
-  .container-footer-div-listas li {
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer-div-listas ul li {
     padding-left: 25%;
     padding-bottom: 1%;
   }
-  .container-footer-container-contactos input {
+  .container-footer-form-class {
+    display: block;
+  }
+  .container-footer-container-contactos form input {
     display: block;
     height: 25px;
     width: 100%;
     border-radius: 7px;
   }
-  .container-footer-form-class {
-    display: block;
-    padding-top: 15%;
-  }
-  .container-footer-container-contactos h2 {
-    padding-bottom: 5%;
-  }
-  .container-footer-container-contactos {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
   .container-contactos button {
     margin-top: 10%;
   }
-  .container-footer-contactos-del-desarrollador {
+  .container-footer-contactos-del-desarrollador ul li {
+    display: block;
     padding-right: 60%;
   }
 }
@@ -873,30 +803,32 @@ html {
     background-color: rgb(15, 80, 100);
     width: 100%;
   }
-  .header-h1-juice {
+  .header h1 {
     display: flex;
-    padding-left: 25%;
-    padding-bottom: 5%;
+    padding-left: 28%;
+    padding-bottom: 4.5%;
     height: 10px;
   }
   .header-img-999 {
     display: flex;
   }
   .header-nav {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .header-barra-nav {
-    padding: 20%;
+    padding: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 12px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
-  .header-barra-nav li {
+  .header-barra-nav ul li {
     display: flex;
-    padding-top: 10%;
-    font-size: 17px;
+    padding-top: 15%;
+    font-size: 15px;
     text-decoration: underline;
-    align-items: center;
   }
 }
 @media (max-width: 720px) {
@@ -927,19 +859,19 @@ html {
 }
 /*===== MEDIA QUERIES ALBUMES =====*/
 @media (max-width: 720px) {
-  .gbgr-disco {
+  .gbgr-contenedor-gbgr-disco {
     display: block;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 15%;
   }
-  .gbgr-disco p {
+  .gbgr-contenedor-gbgr-disco p {
     text-align: start;
     font-size: 13px;
     width: 90%;
   }
-  .gbgr-disco-img-gbgr-album-1 {
+  .gbgr-contenedor-img-gbgr-album-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -959,7 +891,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .drfl-contenedor-drfl-img {
+  .drfl-contenedor-drfl-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -979,7 +911,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .lnd-contenedor-lnd-img {
+  .lnd-contenedor-lnd-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -999,7 +931,7 @@ html {
     font-size: 13px;
     width: 90%;
   }
-  .fd-contenedor-fd-img {
+  .fd-contenedor-fd-img-1 {
     display: block;
     height: 150px;
     width: 150px;
@@ -1035,7 +967,7 @@ html {
     justify-content: space-between;
     padding-bottom: 10%;
   }
-  .tarjeta {
+  .articulo-1 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -1044,14 +976,14 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
   }
-  .tarjeta img {
+  .articulo-1 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta h4 {
+  .articulo-1 h4 {
     text-align: center;
   }
-  .tarjeta-2 {
+  .articulo-2 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -1060,14 +992,14 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
   }
-  .tarjeta-2 img {
+  .articulo-2 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-2 h4 {
+  .articulo-2 h4 {
     text-align: center;
   }
-  .tarjeta-3 {
+  .articulo-3 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -1076,14 +1008,14 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
   }
-  .tarjeta-3 img {
+  .articulo-3 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-3 h4 {
+  .articulo-3 h4 {
     text-align: center;
   }
-  .tarjeta-4 {
+  .articulo-4 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -1094,14 +1026,14 @@ html {
     margin-top: 5%;
     margin-left: 15%;
   }
-  .tarjeta-4 img {
+  .articulo-4 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-4 h4 {
+  .articulo-4 h4 {
     text-align: center;
   }
-  .tarjeta-5 {
+  .articulo-5 {
     height: 270px;
     width: 200px;
     border: 2px solid black;
@@ -1112,81 +1044,119 @@ html {
     margin-top: 5%;
     margin-right: 15%;
   }
-  .tarjeta-5 img {
+  .articulo-5 img {
     width: 75%;
     margin-left: 15%;
   }
-  .tarjeta-5 h4 {
-    text-align: center;
-  }
-  .tarjeta-6 {
-    height: 270px;
-    width: 200px;
-    border: 2px solid black;
-    background-color: rgb(6, 0, 95);
-    color: white;
-    border: solid 3px rgb(107, 104, 104);
-    border-radius: 10px;
-    margin-top: 5%;
-  }
-  .tarjeta-6 img {
-    width: 75%;
-    margin-left: 15%;
-  }
-  .tarjeta-6 h4 {
+  .articulo-5 h4 {
     text-align: center;
   }
 }
 @media (max-width: 720px) {
-  .container-footer {
-    display: block;
-  }
-  .container-footer-div-listas li {
+  .redes-juice-h2 {
     text-align: center;
-    padding-right: 10%;
-    text-decoration: underline;
-    list-style: none;
-    font-size: 17px;
-    padding-top: 7%;
+    background-color: rgb(44, 3, 3);
+    padding-top: 10%;
   }
-  .container-footer h3 {
-    margin-top: 10%;
-    padding-left: 9%;
+  .container-footer {
+    display: flex;
+    flex-direction: column;
   }
-  .container-footer p {
-    padding-bottom: 4%;
-    padding-top: 4%;
-    padding-left: 35%;
+  .container-footer-div-listas {
+    text-align: center;
+    padding-right: 8%;
+    padding-bottom: 20%;
   }
   .container-footer-form-class {
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 10%;
+    display: block;
   }
-  .form-class input {
-    margin-left: 20%;
-    margin-top: 3%;
+  .container-footer-container-contactos form input {
+    display: block;
+    height: 25px;
+    width: 100%;
+    border-radius: 7px;
   }
-  .form-class p {
-    padding-left: 34%;
-  }
-  .form-class button {
-    display: flex;
-    margin-left: 37%;
-    margin-top: 3%;
-  }
-  .container-footer-cajita-juice {
-    height: 70%;
-    width: 70%;
+  .container-contactos button {
+    margin-top: 10%;
   }
   .container-footer-contactos-del-desarrollador {
-    display: block;
-    text-align: center;
-    list-style: none;
-    padding-right: 55%;
-    font-size: 17px;
-    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-right: 25%;
   }
+  .container-footer-contactos-del-desarrollador ul li {
+    display: block;
+    list-style: none;
+    text-align: center;
+  }
+  .container-footer-contactos-del-desarrollador li {
+    padding-bottom: 50%;
+  }
+}
+@media (max-width: 420px) {
+  .container-contactos input {
+    display: block;
+    height: 25px;
+    width: 100%;
+    border-radius: 7px;
+  }
+  .container-contactos h2 {
+    padding-bottom: 12%;
+  }
+  .container-contactos {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .container-contactos button {
+    margin-top: 10%;
+  }
+}
+.header {
+  display: flex;
+  background-color: rgb(15, 80, 100);
+  align-items: center;
+}
+.header-h1-juice {
+  padding-left: 40%;
+  display: flex;
+}
+.header-img-999 {
+  display: flex;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.container-footer {
+  background-color: rgb(44, 3, 3);
+  display: flex;
+  padding-top: 50px;
+}
+.container-footer-div-listas {
+  padding-left: 8%;
+}
+.container-footer li {
+  padding-top: 15%;
+  font-size: 20px;
+}
+.container-footer-cajita-juice {
+  height: 400px;
+  padding-left: 30%;
+  padding-bottom: 20%;
+}
+.container-footer h3 {
+  margin-left: 3%;
+}
+.container-footer-form-class {
+  padding-top: 1%;
+  margin-left: 20%;
+}
+.container-footer-contactos-del-desarrollador li {
+  margin-left: 100%;
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
