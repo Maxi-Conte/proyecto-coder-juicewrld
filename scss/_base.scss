@@ -72,7 +72,10 @@ html {
 @mixin parrafos-albumes {
     text-align: start;
     font-size: 13px;
-    width: 90%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 3%;
 }
 
 @mixin cajas-albumes {
