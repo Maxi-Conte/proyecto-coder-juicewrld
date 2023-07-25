@@ -9,7 +9,7 @@
     
     .header h1 { 
         display: flex;
-        padding-left: 15%;
+        padding-left: 4%;
         padding-bottom: 6.5%;
         height: 10px;
     }
@@ -152,6 +152,7 @@
 @media only screen and (max-width: 496px) {
     .canciones-documental {
         display: block;
+        margin-right: 3%;
     }
 
     .canciones-mas-escuchadas {
@@ -192,7 +193,7 @@
 
 .articulo-1 {
     height: 270px;
-    width: 200px;
+    width: 180px;
     border: 2px solid black;
     background-color: rgb(6, 0, 95);
     color: white;
@@ -211,12 +212,13 @@
 
 .articulo-2 {
     height: 270px;
-    width: 200px;
+    width: 180px;
     border: 2px solid black;
     background-color: rgb(6, 0, 95);
     color: white;
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
+    margin-right: 5%;
 
     & img {
         width: 75%;
@@ -230,7 +232,7 @@
 
 .articulo-3 {
     height: 270px;
-    width: 200px;
+    width: 180px;
     border: 2px solid black;
     background-color: rgb(6, 0, 95);
     color: white;
@@ -250,13 +252,14 @@
 
 .articulo-4 {
     height: 270px;
-    width: 200px;
+    width: 180px;
     border: 2px solid black;
     background-color: rgb(6, 0, 95);
     color: white;
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
     margin-top: 5%;
+    margin-right: 5%;
 
     & img {
         width: 75%;
@@ -270,7 +273,7 @@
 
 .articulo-5 {
     height: 270px;
-    width: 200px;
+    width: 180px;
     border: 2px solid black;
     background-color: rgb(6, 0, 95);
     color: white;
@@ -394,7 +397,7 @@
 
 // MEDIA QUERIES BIOGRAFÍA //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
 
     .div-info {
         display: block;
@@ -432,7 +435,7 @@
 
 // ALBUM 1 //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
 
     .gbgr-contenedor-gbgr-disco {
         @include cajas-albumes
@@ -450,7 +453,7 @@
 
 // ALBUM 2 //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
     .drfl-contenedor-drfl-disco {
         @include cajas-albumes
     }
@@ -466,7 +469,7 @@
 
 // ALBUM 3 //
 
-@media only screen and (min-width: 497px) and (max-width: 720px){
+@media only screen and (min-width: 421px) and (max-width: 720px){
     .lnd-contenedor-lnd-disco {
         @include cajas-albumes
     }
@@ -482,7 +485,7 @@
 
 // ALBUM 4 // 
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
     .fd-contenedor-fd-disco {
         @include cajas-albumes
     }
@@ -498,7 +501,7 @@
 
 // MEDIA QUERIES 3 CANCIONES - DOCUMENTAL //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
     .canciones-documental {
         display: block;
     }
@@ -527,7 +530,7 @@
 
 // MEDIA QUERIES ROPA //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
 
     .seccion-ropa {
         padding-top: 5%;
@@ -645,7 +648,7 @@
 
 // MEDIA QUERIES FOOTER //
 
-@media only screen and (min-width: 497px) and (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
 
     .redes-juice-h2 {
         text-align: center;
