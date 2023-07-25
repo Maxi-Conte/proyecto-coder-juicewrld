@@ -766,7 +766,7 @@ html {
     text-align: center;
   }
 }
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .redes-juice-h2 {
     text-align: center;
     background-color: rgb(44, 3, 3);
@@ -776,9 +776,10 @@ html {
     display: flex;
     flex-direction: column;
   }
-  .container-footer-div-listas ul li {
-    padding-left: 25%;
-    padding-bottom: 1%;
+  .container-footer-div-listas {
+    text-align: center;
+    padding-right: 8%;
+    padding-bottom: 20%;
   }
   .container-footer-form-class {
     display: block;
@@ -792,12 +793,60 @@ html {
   .container-contactos button {
     margin-top: 10%;
   }
+  .container-footer-contactos-del-desarrollador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-right: 40%;
+  }
   .container-footer-contactos-del-desarrollador ul li {
     display: block;
-    padding-right: 60%;
+    list-style: none;
+    text-align: center;
+  }
+  .container-footer-contactos-del-desarrollador li {
+    padding-bottom: 50%;
   }
 }
-@media (max-width: 720px) {
+/*.redes-juice-h2 {
+        text-align: center;
+        background-color: rgb(44, 3, 3);
+        padding-top: 10%;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-footer-div-listas ul li {
+        padding-left: 25%;
+        padding-bottom: 1%;
+    }
+
+    .container-footer-form-class {
+        display: block;
+    }
+
+    .container-footer-container-contactos form input {
+        display: block;
+        height: 25px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .container-contactos button {
+        margin-top: 10%;
+    }
+
+    .container-footer-contactos-del-desarrollador ul li {
+        display: block;
+        padding-right: 60%;
+    }
+
+}*/
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .header {
     display: flex;
     background-color: rgb(15, 80, 100);
@@ -831,7 +880,7 @@ html {
     text-decoration: underline;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .div-info {
     display: block;
   }
@@ -858,7 +907,7 @@ html {
   }
 }
 /*===== MEDIA QUERIES ALBUMES =====*/
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .gbgr-contenedor-gbgr-disco {
     display: block;
     margin-top: 10%;
@@ -878,7 +927,7 @@ html {
     margin-left: 33%;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .drfl-contenedor-drfl-disco {
     display: block;
     margin-top: 10%;
@@ -898,7 +947,7 @@ html {
     margin-left: 33%;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .lnd-contenedor-lnd-disco {
     display: block;
     margin-top: 10%;
@@ -918,7 +967,7 @@ html {
     margin-left: 33%;
   }
 }
-@media (max-width: 780px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .fd-contenedor-fd-disco {
     display: block;
     margin-top: 10%;
@@ -938,7 +987,7 @@ html {
     margin-left: 33%;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .canciones-documental {
     display: block;
   }
@@ -959,7 +1008,7 @@ html {
     padding-top: 10%;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .seccion-ropa {
     padding-top: 5%;
     display: flex;
@@ -1052,7 +1101,7 @@ html {
     text-align: center;
   }
 }
-@media (max-width: 720px) {
+@media only screen and (min-width: 421px) and (max-width: 720px) {
   .redes-juice-h2 {
     text-align: center;
     background-color: rgb(44, 3, 3);
