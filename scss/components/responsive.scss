@@ -1,6 +1,6 @@
 // MOBILE //
 
-@media (max-width:480px) {
+@media only screen and (max-width: 496px) {
     .header {
         display: flex;
         background-color: rgb(15, 80, 100);
@@ -41,7 +41,7 @@
 // MEDIA QUERIES BIOGRAFIA //
 
 
-@media (max-width:480px) {
+@media only screen and (max-width: 496px) {
     .div-info {
         display: block;
     }
@@ -82,7 +82,7 @@
 
 // ALBUM 1 //
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
 
     .gbgr-contenedor-gbgr-disco {
         @include cajas-albumes
@@ -100,7 +100,7 @@
 
 // ALBUM 2 //
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
 
     .drfl-contenedor-drfl-disco {
         @include cajas-albumes
@@ -117,7 +117,7 @@
 
 // ALBUM 3 //
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
     .lnd-contenedor-lnd-disco {
         @include cajas-albumes
     }
@@ -133,7 +133,7 @@
 
 // ALBUM 4 //
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
     .fd-contenedor-fd-disco {
         @include cajas-albumes
     }
@@ -149,7 +149,7 @@
 
 // MEDIA QUERIES TOP 3 CANCIONES - DOCUMENTAL //
 
-@media (max-width:480px) {
+@media only screen and (max-width: 496px) {
     .canciones-documental {
         display: block;
     }
@@ -179,7 +179,7 @@
 
 // MEDIA QUERIES ROPA //
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
 
 .seccion-ropa {
     padding-top: 5%;
@@ -277,7 +277,7 @@
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
     margin-top: 5%;
-    margin-left: 26%;
+    margin-left: 28%;
 
     & img {
         width: 75%;
@@ -291,7 +291,7 @@
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 496px) {
 
     .redes-juice-h2 {
         text-align: center;
@@ -350,7 +350,7 @@
 
 // MEDIA QUERIES HEADER // 
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .header {
         display: flex;
@@ -394,7 +394,7 @@
 
 // MEDIA QUERIES BIOGRAFÍA //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .div-info {
         display: block;
@@ -432,7 +432,7 @@
 
 // ALBUM 1 //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .gbgr-contenedor-gbgr-disco {
         @include cajas-albumes
@@ -450,7 +450,7 @@
 
 // ALBUM 2 //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .drfl-contenedor-drfl-disco {
         @include cajas-albumes
     }
@@ -466,7 +466,7 @@
 
 // ALBUM 3 //
 
-@media only screen and (min-width: 481px) and (max-width: 720px){
+@media only screen and (min-width: 497px) and (max-width: 720px){
     .lnd-contenedor-lnd-disco {
         @include cajas-albumes
     }
@@ -482,7 +482,7 @@
 
 // ALBUM 4 // 
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .fd-contenedor-fd-disco {
         @include cajas-albumes
     }
@@ -498,7 +498,7 @@
 
 // MEDIA QUERIES 3 CANCIONES - DOCUMENTAL //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
     .canciones-documental {
         display: block;
     }
@@ -527,7 +527,7 @@
 
 // MEDIA QUERIES ROPA //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .seccion-ropa {
         padding-top: 5%;
@@ -645,7 +645,7 @@
 
 // MEDIA QUERIES FOOTER //
 
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
 
     .redes-juice-h2 {
         text-align: center;
@@ -702,7 +702,7 @@
 
 // CONTACTOS //
 
-@media (max-width:480px) {
+@media (max-width: 497px) {
 
     .container-contactos input {
         display: block;

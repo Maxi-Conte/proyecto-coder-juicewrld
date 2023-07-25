@@ -515,7 +515,7 @@ html {
   padding-left: 3%;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .header {
     display: flex;
     background-color: rgb(15, 80, 100);
@@ -547,7 +547,7 @@ html {
     text-decoration: underline;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .div-info {
     display: block;
   }
@@ -575,7 +575,7 @@ html {
     padding-top: 50px;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .gbgr-contenedor-gbgr-disco {
     display: block;
     margin-top: 10%;
@@ -598,7 +598,7 @@ html {
     margin-left: 23%;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .drfl-contenedor-drfl-disco {
     display: block;
     margin-top: 10%;
@@ -621,7 +621,7 @@ html {
     margin-left: 23%;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .lnd-contenedor-lnd-disco {
     display: block;
     margin-top: 10%;
@@ -644,7 +644,7 @@ html {
     margin-left: 23%;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .fd-contenedor-fd-disco {
     display: block;
     margin-top: 10%;
@@ -667,7 +667,7 @@ html {
     margin-left: 23%;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .canciones-documental {
     display: block;
   }
@@ -688,7 +688,7 @@ html {
     margin-top: 20%;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .seccion-ropa {
     padding-top: 5%;
     display: flex;
@@ -771,7 +771,7 @@ html {
     border: solid 3px rgb(107, 104, 104);
     border-radius: 10px;
     margin-top: 5%;
-    margin-left: 26%;
+    margin-left: 28%;
   }
   .articulo-5 img {
     width: 75%;
@@ -781,7 +781,7 @@ html {
     text-align: center;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 496px) {
   .redes-juice-h2 {
     text-align: center;
     background-color: rgb(44, 3, 3);
@@ -824,7 +824,7 @@ html {
     padding-bottom: 50%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .header {
     display: flex;
     background-color: rgb(15, 80, 100);
@@ -858,7 +858,7 @@ html {
     text-decoration: underline;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .div-info {
     display: block;
   }
@@ -884,7 +884,7 @@ html {
   }
 }
 /*===== MEDIA QUERIES ALBUMES =====*/
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .gbgr-contenedor-gbgr-disco {
     display: block;
     margin-top: 10%;
@@ -907,7 +907,7 @@ html {
     margin-left: 33%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .drfl-contenedor-drfl-disco {
     display: block;
     margin-top: 10%;
@@ -930,7 +930,7 @@ html {
     margin-left: 33%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .lnd-contenedor-lnd-disco {
     display: block;
     margin-top: 10%;
@@ -953,7 +953,7 @@ html {
     margin-left: 33%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .fd-contenedor-fd-disco {
     display: block;
     margin-top: 10%;
@@ -976,7 +976,7 @@ html {
     margin-left: 33%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .canciones-documental {
     display: block;
   }
@@ -997,7 +997,7 @@ html {
     padding-top: 10%;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .seccion-ropa {
     padding-top: 5%;
     display: flex;
@@ -1090,7 +1090,7 @@ html {
     text-align: center;
   }
 }
-@media only screen and (min-width: 481px) and (max-width: 720px) {
+@media only screen and (min-width: 497px) and (max-width: 720px) {
   .redes-juice-h2 {
     text-align: center;
     background-color: rgb(44, 3, 3);
@@ -1133,7 +1133,7 @@ html {
     padding-bottom: 50%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 497px) {
   .container-contactos input {
     display: block;
     height: 25px;
