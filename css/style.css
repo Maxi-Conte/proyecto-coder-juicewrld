@@ -59,6 +59,7 @@ html {
   text-align: center;
   font-size: 20px;
   list-style: none;
+  padding-left: 50%;
 }
 
 .header {
@@ -96,6 +97,387 @@ html {
   margin-right: 30px;
   margin-left: 30px;
   padding-top: 1.5%;
+}
+
+.div-info {
+  background-color: rgb(32, 31, 31);
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 8px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  padding-bottom: 33px;
+}
+.div-info-juice {
+  padding-top: 15px;
+}
+.div-info-juice p {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 16px;
+  padding-top: 2%;
+}
+.div-info-img-juice-1 {
+  height: 380px;
+  padding-left: 20px;
+  margin-top: 8%;
+  padding-right: 50px;
+}
+.div-info-h3-info {
+  padding-bottom: 20px;
+  padding-left: 2px;
+  text-align: center;
+}
+.div-info-h3-info-2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.div-info-parrafo-gbgr-5-años {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.div-info-parrafos-info-2 {
+  padding-left: 20px;
+  font-size: 16px;
+  padding-right: 60px;
+}
+.div-info-parrafo-posterior {
+  padding-top: 10px;
+}
+.div-info-a-gbgr-5 {
+  color: brown;
+  text-decoration: underline;
+}
+
+.canciones-documental {
+  display: flex;
+}
+
+.h3-top-3 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.canciones-mas-escuchadas {
+  background-color: rgb(32, 31, 31);
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  justify-items: center;
+}
+.canciones-mas-escuchadas p {
+  padding: 5%;
+  font-size: 15px;
+}
+.canciones-mas-escuchadas a {
+  color: brown;
+  text-decoration: underline;
+  font-size: 16px;
+  padding-left: 5%;
+}
+.canciones-mas-escuchadas a:hover {
+  color: blue;
+}
+
+.btninicio {
+  background-color: rgb(37, 2, 82);
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  display: flex;
+  font-size: 17px;
+  border: solid 2px rgb(103, 20, 236);
+  border-radius: 4px;
+}
+
+/* ===== Contactos =====*/
+.container-contactos input {
+  display: block;
+  margin-top: 8%;
+  height: 35px;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.container-contactos h2 {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.container-contactos {
+  background-color: rgb(41, 41, 41);
+  border: solid 4px rgb(55, 6, 100);
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+
+.container-contactos button {
+  margin-top: 8%;
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.discografia {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.h3-albumes {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.gbgr-contenedor {
+  animation: desplazamientoizquierda 2s forwards;
+}
+.gbgr-contenedor-gbgr-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.gbgr-contenedor-gbgr-disco p {
+  padding-top: 8px;
+}
+.gbgr-contenedor-parrafo-gbgr {
+  padding: 20px 10px 3px 50px;
+}
+.gbgr-contenedor a {
+  color: brown;
+}
+.gbgr-contenedor a:hover {
+  color: blue;
+}
+.gbgr-contenedor-img-gbgr-album-1 {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+.gbgr-contenedor .izquierda {
+  animation-name: desplazamientoizquierda;
+}
+@keyframes desplazamientoizquierda {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.drfl-contenedor {
+  animation: desplazamientoderecha 2s forwards;
+}
+.drfl-contenedor-drfl-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.drfl-contenedor-drfl-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.drfl-contenedor-drfl-disco p {
+  padding-top: 8px;
+}
+.drfl-contenedor-drfl-parrafos {
+  padding: 20px 10px 3px 50px;
+}
+.drfl-contenedor a {
+  color: brown;
+}
+.drfl-contenedor a:hover {
+  color: blue;
+}
+.drfl-contenedor-drfl-img-1 {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+.drfl-contenedor .derecha {
+  animation-name: desplazamientoderecha;
+}
+@keyframes desplazamientoderecha {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.lnd-contenedor {
+  margin-top: 80px;
+  animation: desplazamientoizquierda 2s forwards;
+}
+.lnd-contenedor-lnd-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.lnd-contenedor-p-1-lnd {
+  padding-bottom: 10px;
+}
+.lnd-contenedor-p-3-lnd {
+  padding-top: 10px;
+}
+.lnd-contenedor-lnd-parrafos {
+  padding: 20px 10px 3px 50px;
+}
+.lnd-contenedor a {
+  color: brown;
+  text-decoration: underline;
+}
+.lnd-contenedor a:hover {
+  color: blue;
+}
+.lnd-contenedor-lnd-img-1 {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+.lnd-contenedor .izquierda {
+  animation-name: desplazamientoizquierda;
+}
+@keyframes desplazamientoizquierda {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.fd-contenedor {
+  margin-top: 80px;
+  animation: desplazamientoderecha 2s forwards;
+}
+.fd-contenedor-fd-disco {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+  font-size: 17px;
+}
+.fd-contenedor p {
+  padding: 20px 10px 3px 50px;
+  margin-top: 1%;
+}
+.fd-contenedor a {
+  color: brown;
+  text-decoration: underline;
+}
+.fd-contenedor a:hover {
+  color: blue;
+}
+.fd-contenedor-fd-img {
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
+.fd-contenedor .derecha {
+  animation-name: desplazamientoderecha;
+}
+@keyframes desplazamientoderecha {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.documental-juice-h3 {
+  display: flex;
+  padding-left: 60%;
+}
+
+.documental-juice {
+  background-color: rgb(32, 31, 31);
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 13px;
+  justify-items: center;
+  animation: aparecerdesdeabajo 1.5s ease-in-out;
+}
+.documental-juice p {
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 7%;
+}
+.documental-juice h3 {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+.documental-juice-img-hbo-1 {
+  width: 350px;
+  height: 400px;
+  padding-top: 5%;
+  padding-right: 3%;
+}
+.documental-juice-h4-documental {
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.documental-juice li {
+  list-style: none;
+  padding-top: 5%;
+  padding-left: 4%;
+}
+@keyframes aparecerdesdeabajo {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .h2-ropa-accesorios {
@@ -256,336 +638,6 @@ html {
 }
 .articulo-5 img {
   width: 100%;
-}
-
-.div-info {
-  background-color: rgb(32, 31, 31);
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 8px;
-  margin: 30px;
-  padding-bottom: 33px;
-}
-.div-info-juice {
-  padding-top: 15px;
-}
-.div-info-juice p {
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 16px;
-  padding-top: 2%;
-}
-.div-info-img-juice-1 {
-  height: 380px;
-  padding-left: 20px;
-  margin-top: 8%;
-  padding-right: 50px;
-}
-.div-info-h3-info {
-  padding-bottom: 20px;
-  padding-left: 2px;
-  text-align: center;
-}
-.div-info-h3-info-2 {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-.div-info-parrafo-gbgr-5-años {
-  padding-top: 20px;
-  padding-bottom: 25px;
-}
-.div-info-parrafos-info-2 {
-  padding-left: 20px;
-  font-size: 16px;
-  padding-right: 60px;
-}
-.div-info-parrafo-posterior {
-  padding-top: 10px;
-}
-.div-info-a-gbgr-5 {
-  color: brown;
-  text-decoration: underline;
-}
-
-.discografia {
-  text-align: center;
-  padding-top: 50px;
-}
-
-.h3-albumes {
-  padding-top: 30px;
-  padding-left: 60px;
-}
-
-.gbgr-contenedor-gbgr-disco {
-  background-color: rgb(32, 31, 31);
-  padding: 20px;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 50px;
-  font-size: 17px;
-}
-.gbgr-contenedor-gbgr-disco p {
-  padding-top: 8px;
-}
-.gbgr-contenedor-parrafo-gbgr {
-  padding: 20px 10px 3px 50px;
-}
-.gbgr-contenedor a {
-  color: brown;
-}
-.gbgr-contenedor a:hover {
-  color: blue;
-}
-.gbgr-contenedor-img-gbgr-album-1 {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-}
-
-.drfl-contenedor-drfl-disco {
-  background-color: rgb(32, 31, 31);
-  padding: 20px;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 50px;
-  font-size: 17px;
-}
-.drfl-contenedor-drfl-disco {
-  background-color: rgb(32, 31, 31);
-  padding: 20px;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 50px;
-  font-size: 17px;
-}
-.drfl-contenedor-drfl-disco p {
-  padding-top: 8px;
-}
-.drfl-contenedor-drfl-parrafos {
-  padding: 20px 10px 3px 50px;
-}
-.drfl-contenedor a {
-  color: brown;
-}
-.drfl-contenedor a:hover {
-  color: blue;
-}
-.drfl-contenedor-drfl-img-1 {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-}
-
-.lnd-contenedor {
-  margin-top: 80px;
-}
-.lnd-contenedor-lnd-disco {
-  background-color: rgb(32, 31, 31);
-  padding: 20px;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 50px;
-  font-size: 17px;
-}
-.lnd-contenedor-p-1-lnd {
-  padding-bottom: 10px;
-}
-.lnd-contenedor-p-3-lnd {
-  padding-top: 10px;
-}
-.lnd-contenedor-lnd-parrafos {
-  padding: 20px 10px 3px 50px;
-}
-.lnd-contenedor a {
-  color: brown;
-  text-decoration: underline;
-}
-.lnd-contenedor a:hover {
-  color: blue;
-}
-.lnd-contenedor-lnd-img-1 {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-}
-
-.fd-contenedor {
-  margin-top: 80px;
-}
-.fd-contenedor-fd-disco {
-  background-color: rgb(32, 31, 31);
-  padding: 20px;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  margin: 50px;
-  font-size: 17px;
-}
-.fd-contenedor p {
-  padding: 20px 10px 3px 50px;
-  margin-top: 1%;
-}
-.fd-contenedor a {
-  color: brown;
-  text-decoration: underline;
-}
-.fd-contenedor a:hover {
-  color: blue;
-}
-.fd-contenedor-fd-img {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-}
-
-.canciones-documental {
-  display: flex;
-}
-
-.h3-top-3 {
-  padding-left: 5%;
-}
-
-.canciones-mas-escuchadas {
-  background-color: rgb(32, 31, 31);
-  margin: 2%;
-  display: flex;
-  border: 2px solid white;
-  border-radius: 20px;
-  justify-items: center;
-}
-.canciones-mas-escuchadas p {
-  padding: 5%;
-  font-size: 12px;
-}
-.canciones-mas-escuchadas a {
-  color: brown;
-  text-decoration: underline;
-  font-size: 14px;
-  padding-left: 5%;
-}
-.canciones-mas-escuchadas a:hover {
-  color: blue;
-}
-
-/* ===== Documental ===== */
-.documental-juice-h3 {
-  display: flex;
-  padding-left: 60%;
-}
-
-.documental-juice {
-  background-color: rgb(32, 31, 31);
-  display: flex;
-  margin: 2%;
-  border: 2px solid white;
-  border-radius: 20px;
-  font-size: 13px;
-  justify-items: center;
-}
-.documental-juice p {
-  margin-top: 3%;
-  margin-left: 3%;
-  margin-right: 7%;
-}
-.documental-juice h3 {
-  padding-left: 20%;
-  padding-top: 5%;
-}
-.documental-juice-img-hbo-1 {
-  height: 350px;
-  padding-top: 5%;
-  padding-right: 3%;
-}
-.documental-juice-h4-documental {
-  display: flex;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-.documental-juice li {
-  list-style: none;
-  padding-top: 5%;
-  padding-left: 3%;
-}
-
-.header {
-  display: flex;
-  background-color: rgb(15, 80, 100);
-  align-items: center;
-}
-.header-h1-juice {
-  padding-left: 40%;
-  display: flex;
-}
-.header-img-999 {
-  display: flex;
-  height: 80px;
-  padding-left: 10px;
-}
-.header-nav {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-.header-barra-nav {
-  background-color: rgb(22, 50, 66);
-  border: solid 2px rgb(22, 50, 66);
-  display: flex;
-  align-items: center;
-  padding-left: 40px;
-  padding-bottom: 1%;
-  justify-content: space-evenly;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.header-barra-nav li {
-  display: inline-flex;
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-top: 1.5%;
-}
-
-.redes-juice-h2 {
-  text-align: center;
-  background-color: rgb(44, 3, 3);
-  padding-top: 3%;
-}
-
-.container-footer {
-  background-color: rgb(44, 3, 3);
-  display: flex;
-  padding-top: 50px;
-}
-.container-footer-div-listas {
-  padding-left: 8%;
-}
-.container-footer li {
-  padding-top: 15%;
-  font-size: 20px;
-}
-.container-footer-cajita-juice {
-  height: 400px;
-  padding-left: 30%;
-  padding-bottom: 20%;
-}
-.container-footer h3 {
-  margin-left: 3%;
-}
-.container-footer-form-class {
-  padding-top: 1%;
-  margin-left: 20%;
-}
-.container-footer-contactos-del-desarrollador li {
-  margin-left: 100%;
-  text-align: center;
-  font-size: 20px;
-  list-style: none;
 }
 
 @media only screen and (max-width: 496px) {
@@ -761,7 +813,8 @@ html {
     width: 95%;
   }
   .documental-juice-img-hbo-1 {
-    height: 250px;
+    height: 100%;
+    width: 55%;
     margin-top: 20%;
     margin-left: 25%;
   }

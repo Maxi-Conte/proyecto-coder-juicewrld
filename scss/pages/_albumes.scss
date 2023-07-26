@@ -11,7 +11,6 @@
 
 .gbgr-contenedor {
 
-
     &-gbgr-disco {
         @include discografia
     }
@@ -27,6 +26,7 @@
 
     & a {
         color: brown;
+
         &:hover {
             color: blue;
         }
@@ -35,16 +35,32 @@
     &-img-gbgr-album-1 {
         @include medidas-img-albumes;
     }
+
+    animation: desplazamientoizquierda 2s forwards;
+
+    .izquierda {
+        animation-name: desplazamientoizquierda;
+    }
+
+    @keyframes desplazamientoizquierda {
+        0% {
+            transform: translateX(+100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
 }
 
 
 .drfl-contenedor {
 
-
     &-drfl-disco {
         @include discografia;
     }
-    
+
     &-drfl-disco {
         @include discografia;
     }
@@ -59,6 +75,7 @@
 
     & a {
         color: brown;
+
         &:hover {
             color: blue;
         }
@@ -66,7 +83,23 @@
 
     &-drfl-img-1 {
         @include medidas-img-albumes;
-    
+
+    }
+
+    animation: desplazamientoderecha 2s forwards;
+
+    .derecha {
+        animation-name: desplazamientoderecha;
+    }
+
+    @keyframes desplazamientoderecha {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
     }
 }
 
@@ -93,6 +126,7 @@
     & a {
         color: brown;
         text-decoration: underline;
+
         &:hover {
             color: blue;
         }
@@ -100,6 +134,22 @@
 
     &-lnd-img-1 {
         @include medidas-img-albumes;
+    }
+
+    animation: desplazamientoizquierda 2s forwards;
+
+    .izquierda {
+        animation-name: desplazamientoizquierda;
+    }
+
+    @keyframes desplazamientoizquierda {
+        0% {
+            transform: translateX(+100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
     }
 }
 
@@ -118,6 +168,7 @@
     & a {
         color: brown;
         text-decoration: underline;
+
         &:hover {
             color: blue;
         }
@@ -126,6 +177,21 @@
     &-fd-img {
         @include medidas-img-albumes;
     }
-    
+
+    animation: desplazamientoderecha 2s forwards;
+
+    .derecha {
+        animation-name: desplazamientoderecha;
+    }
+
+    @keyframes desplazamientoderecha {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
+    }
 
 }

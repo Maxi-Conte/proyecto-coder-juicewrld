@@ -1,0 +1,12 @@
+.canciones-documental {
+    display: flex;
+}
+
+.h3-top-3 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.canciones-mas-escuchadas {
+    @include medidas-top-tres-canciones
+}

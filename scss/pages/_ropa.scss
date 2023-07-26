@@ -1,0 +1,152 @@
+.h2-ropa-accesorios {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.seccion-ropa {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10%;
+}
+
+.articulo-1 {
+    @include medidas-articulos;
+
+    &-tarjeta-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    & h4 {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+
+.articulo-2 {
+    @include medidas-articulos;
+    ;
+
+    &-tarjeta-body-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    & h4 {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+
+.articulo-3 {
+    @include medidas-articulos;
+
+    &-tarjeta-body-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    & h4 {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
+
+.articulo-4 {
+    @include medidas-articulos;
+
+    &-tarjeta-body-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 27%;
+    }
+
+    & h4 {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    & img {
+        width: 100%;
+        padding-top: 20%;
+    }
+}
+
+.articulo-5 {
+    @include medidas-articulos;
+
+    &-tarjeta-body-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    & h4 {
+        font-size: 15px;
+        padding-bottom: 5%;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    & img {
+        width: 100%;
+    }
+}
