@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    background-color: rgb(15, 80, 100);
+    align-items: center;
+
+    &-h1-juice {
+        padding-left: 40%;
+        display: flex;
+    }
+
+    &-img-999 {
+        display: flex;
+        height: 80px;
+        padding-left: 10px;
+    }
+
+    &-nav {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    &-barra-nav {
+        background-color: rgb(22, 50, 66);
+        border: solid 2px rgb(22, 50, 66);
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 1%;
+        justify-content: space-evenly;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    &-barra-nav li {
+        display: inline-flex;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-top: 1.5%;
+    }
+
+}
+
+.redes-juice-h2 {
+    text-align: center;
+    background-color: rgb(44, 3, 3);
+    padding-top: 3%;
+}
+
+.container-footer {
+    background-color: rgb(44, 3, 3);
+    display: flex;
+    padding-top: 50px;
+
+    &-div-listas {
+        padding-left: 8%;
+    }
+
+    & li {
+        padding-top: 15%;
+        font-size: 20px;
+    }
+
+    &-cajita-juice {
+        height: 400px;
+        padding-left: 30%;
+        padding-bottom: 20%;
+    }
+
+    & h3 {
+        margin-left: 3%;
+    }
+
+    &-form-class {
+        padding-top: 1%;
+        margin-left: 20%;
+    }
+
+    &-contactos-del-desarrollador li {
+        margin-left: 100%;
+        text-align: center;
+        font-size: 20px;
+        list-style: none;
+    }
+}

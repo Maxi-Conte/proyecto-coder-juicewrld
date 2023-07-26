@@ -1,5 +1,7 @@
 @import "./base";
 
+// COMPONENTS //
+
 @import "./components/footer";
 @import "./components/header";
 @import "./components/navbar";
@@ -8,6 +10,7 @@
 @import "./components/albumes";
 @import "./components/canciones-y-documental";
 
+// PAGES //
 
 @import "./pages/contactos";
 @import "./pages/index";
@@ -15,5 +18,6 @@
 @import "./pages/publicidad";
 @import "./pages/ropa";
 
+// RESPONSIVE //
+
 @import "./components/responsive.scss";
-@import "./components/contactos.scss";
